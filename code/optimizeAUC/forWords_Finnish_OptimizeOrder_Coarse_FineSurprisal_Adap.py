@@ -210,7 +210,7 @@ for name in files:
 
 print(["Neg count", negCount, "Pos count", posCount])
 
-if posCount >= 8 and negCount >= 8:
+if posCount >= 4 and negCount >= 4:
    print("Enough models!")
    quit()
 
@@ -280,7 +280,7 @@ for iteration in range(10000):
 
   # Iterate over possible new positions
   for newValue in [choice([-1] + [2*x+1 for x in range(len(itos_pure_deps))])]:
-     print("Iteration", iteration, newValue, "best AUC so far:", bestAUCSoFar, coordinate, args, lastUpdated)
+     print("Iteration", iteration, newValue, "best AUC so far:", bestAUCSoFar, coordinate, args, lastUpdated, __file__)
      # Updated weights, assuming the selected morpheme is moved to the position indicated by `newValue`.
      weights_ = {x : y if x != coordinate else newValue for x, y in weights.items()}
 

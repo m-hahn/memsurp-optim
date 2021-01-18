@@ -24,7 +24,7 @@ def readUDCorpus(language, partition, ignoreCorporaWithoutWords=True, errorWhenE
            print >> sys.stderr, ("Skipping "+name)
            continue
         assert ("Sign" not in name)
-        if "Chinese-CFL" in name or "English-ESL" in name or "Hindi_English" in name or "French-FQB" in name or "Latin-ITTB" in name or "Latin-LLCT" in name or "English-Pronouns" in name or "English-GUMReddit" in name:
+        if "Chinese-CFL" in name or "English-ESL" in name or "Hindi_English" in name or "French-FQB" in name or "Latin-ITTB" in name or "Latin-LLCT" in name or "English-Pronouns" in name or "English-GUMReddit" in name or "Turkish-German" in name or "Chinese-GSDSimp" in name:
            print >> sys.stderr, ("Skipping "+name)
            continue
         suffix = name[len("UD_"+language):]

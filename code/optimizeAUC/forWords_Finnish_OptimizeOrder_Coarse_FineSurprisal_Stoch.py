@@ -277,6 +277,8 @@ for iteration in range(10000):
 
   # Iterate over possible new positions
   for newValue in [choice([-1] + [2*x+1 for x in range(len(itos_pure_deps))])]:
+     if random() > 0.5:
+        continue
      print("Iteration", iteration, newValue, "best AUC so far:", bestAUCSoFar, coordinate, args, lastUpdated, __file__)
      # Updated weights, assuming the selected morpheme is moved to the position indicated by `newValue`.
      weights_ = {x : y if x != coordinate else newValue for x, y in weights.items()}
@@ -289,7 +291,7 @@ for iteration in range(10000):
         mostCorrectValue = newValue
         bestAUCSoFar = resultingAUC
         lastUpdated = iteration
-  assert bestAUCSoFar < 1e99
+#  assert bestAUCSoFar < 1e99
   print(iteration, bestAUCSoFar)
   weights[coordinate] = mostCorrectValue
   itos_pure_deps_ = sorted(itos_pure_deps, key=lambda x:weights[x])

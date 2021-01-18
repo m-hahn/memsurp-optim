@@ -6,12 +6,13 @@ same = defaultdict(int)
 
 
 dist_d, dist_n, dist_a = 0, 0, 0
-
+languages = set()
 for f in files:
    data = [x.split("\t") for x in open(DIR+"/"+f, "r").read().strip().split("\n")]
    args = data[0][0][1:-1].split(", ")
    data = dict(data[1:])
    language = f[f.index("_")+1:f.index("_for")]
+   languages.add(language)
    order = "".join([x[0] for x in sorted([("V", int(data["HEAD"])), ("S", int(data["nsubj"])), ("O", int(data["obj"]))],key= lambda x:x[1])])
    correl = [x for x in ["case", "cop", "mark", "nmod", "obl", "xcomp", "acl", "aux", "amod", "nummod", "nsubj"] if x in data]
    def d(x):
@@ -27,3 +28,5 @@ for f in files:
          same[x] += 1.0/len(files)
 print(same)
 print(dist_d, dist_n, dist_a)
+print(languages)
+print(len(languages))
