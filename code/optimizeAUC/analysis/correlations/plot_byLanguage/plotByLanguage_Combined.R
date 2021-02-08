@@ -47,6 +47,7 @@ ground$Type = "Real"
 D = rbind(data %>% select(Type, Language, dependency, Dir, idForProcess) %>% rename(FileName=idForProcess), ground %>% select(Type, Language, dependency, Dir, FileName))
 
 D = D %>% group_by(Type, Language, dependency) %>% summarise(Dir = (mean(Dir)) > 0.5)
+#D = D %>% group_by(Type, Language, dependency) %>% summarise(Dir = (mean(Dir)))
 
 
 
@@ -55,6 +56,11 @@ families = read.csv("families.tsv", sep="\t")
 D = merge(D, families, by=c("Language"), all.x=TRUE)
 
 unique((D %>% filter(is.na(Family)))$Language)
+
+
+lang51 = read.csv("languages_54.R", sep="\t")
+
+D = merge(D, lang51, by=c("Language"))
 
 
 #iso = read.csv("languages-wals-mapping.csv", sep="\t")
@@ -71,7 +77,9 @@ D$Language_Ordered = factor(D$Language, levels=unique(D[order(D$Family),]$Langua
 
 
 
-D$Dir = ifelse(D$dependency %in% c("case", "aux", "mark", "cop"), !D$Dir, D$Dir)
+D$Dir = ifelse(D$dependency %in% c("case", "aux", "mark", "cop"), 1-D$Dir, D$Dir)
+
+D$Dir = 1-D$Dir
 
 D$LanguageNumeric = as.numeric(D$Language_Ordered)
 
@@ -92,6 +100,9 @@ DLang = unique(D %>% select(Language_Ordered, LanguageNumeric, yOffset))
 
 
 D = D %>% mutate(dependency = recode(dependency, case=1, cop=2, aux=3, nmod=4, acl=5, mark=6, obl=7, xcomp=8))
+
+D = (D %>% filter(!is.na(dependency)))
+
 
 plot_orders_real = ggplot(D %>% filter(Type == "Real"), aes(x = 1, y = LanguageNumeric+yOffset, group=dependency)) + 
   geom_point(aes(fill=Dir, colour = Dir, size =1), position = position_dodge(width=2.0)) +
@@ -148,7 +159,6 @@ plot = grid.arrange(plot_langs, plot_orders_real, plot_orders_eff, nrow=1, width
 ggsave(plot=plot, "../figures/pred-eff-pred-pars-families.pdf", width=6, height=8)
 
 
-D = (D %>% filter(!is.na(dependency)))
 
 plot_langs2 = plot_langs + annotate("text", label="", x=1, y=58.5, size=6)
 
@@ -163,7 +173,7 @@ plot_orders_eff2 = plot_orders_eff2 + geom_text(data=data.frame(dependency=uniqu
 plot_orders_eff2
 
 
-plot = grid.arrange(plot_langs2, plot_orders_real2, plot_orders_eff2, nrow=1, widths=c(1, 1.2, 1.2, 1.2, 1.2))
+plot = grid.arrange(plot_langs2, plot_orders_real2, plot_orders_eff2, nrow=1, widths=c(1, 1.2, 1.2))
 plot
 
 ggsave(plot=plot, "../figures/pred-eff-pred-pars-families-2.pdf", width=10, height=30)
