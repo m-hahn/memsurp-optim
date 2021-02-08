@@ -1,37 +1,48 @@
-data = read.csv("../../grammars/manual_output_funchead_langmod_coarse_best_balanced/auto-summary-lstm.tsv", sep="\t")# %>% rename(Quality=AverageLength)
+#(base) user@user-X510UAR:~/memsurp-optim/code/optimizeAUC/analysis/correlations/analysis$ cp ~/optimization-landscapes/analysis/families.tsv .
+#(base) user@user-X510UAR:~/memsurp-optim/code/optimizeAUC/analysis/correlations/analysis$ ls ../../../output
+#arguments.tsv  grammars.tsv
+
 library(forcats)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-data = data %>% mutate(Language = fct_recode(Language, "Ancient_Greek" = "Ancient", "Old_Church_Slavonic" = "Old"))
-languages = read.csv("../languages/languages-iso_codes.tsv")
-data  = merge(data, languages, by=c("Language"), all.x=TRUE)
 library("brms")
+
+
+families = read.csv("families.tsv", sep="\t")
+data = read.csv("../../../output/grammars.tsv", sep="\t") %>% rename(Language=language)
+
+data = merge(data, families, by=c("Language"), all.x=TRUE)
+
+unique((data %>% filter(is.na(Family)))$Language)
+
+
+objs = data %>% group_by(idForProcess) %>% filter(dependency == "obj")  %>% select(idForProcess, weight)%>% rename(obj_weight=weight)
+HEADs = data %>% group_by(idForProcess) %>% filter(dependency == "HEAD") %>% select(idForProcess, weight) %>% rename(HEAD_weight=weight)
+
+data = merge(data, objs, by=c("idForProcess"), all=TRUE)
+data = merge(data, HEADs, by=c("idForProcess"), all=TRUE)
+
+data$agree = ((data$weight > data$HEAD_weight) == (data$obj_weight > data$HEAD_weight))
+
+print(data %>% filter(Language == "English_2.6") %>% group_by(dependency) %>% summarise(agree = mean(agree)), n=100)
+
 dependency = "nmod"
-dependencies = c("acl", "advcl", "advmod", "amod", "appos", "aux", "ccomp", "compound", "conj", "csubj", "dep", "det", "discourse", "dislocated", "expl", "fixed", "flat", "goeswith", "iobj", "lifted_case", "lifted_cc", "lifted_cop", "lifted_mark", "list", "nmod", "nsubj", "nummod", "obl", "orphan", "parataxis", "reparandum", "vocative", "xcomp")
-objs = data %>% filter(CoarseDependency == "obj") %>% mutate(obj = pmax(0, sign(DH_Weight))) %>% select(obj, Language, FileName)
-data = data %>% filter((CoarseDependency %in% dependencies))
-data = merge(data, objs, by=c("Language", "FileName"))
-data = data %>% mutate(dir = pmax(0, sign(DH_Weight)))
-data = data %>% mutate(dir = ifelse(DH_Weight == 0, NA, dir))
-data$agree = (data$dir == data$obj)
-
-
-
+dependencies = c("acl", "advcl", "advmod", "amod", "appos", "aux", "ccomp", "compound", "conj", "csubj", "dep", "det", "discourse", "dislocated", "expl", "fixed", "flat", "goeswith", "iobj", "case", "cc", "cop", "mark", "list", "nmod", "nsubj", "nummod", "obl", "orphan", "parataxis", "reparandum", "vocative", "xcomp")
 library(ggplot2)
 
 
-type = "langmod"
+type = "AUC"
 
-u = data %>% filter(CoarseDependency == "nmod")
+u = data %>% filter(dependency == "nmod")
 model3 = brm(agree ~ (1|p|Family) + (1|q|Language), family="bernoulli", data=u, iter=100)
 
 
-for(dependency in dependencies) {
-   u = data %>% filter(CoarseDependency == dependency)
+for(dependency_ in dependencies) {
+   u = data %>% filter(dependency == dependency_)
    model3 = update(model3, newdata=u, iter=5000)
    u = posterior_samples(model3)
-   write.csv(u, file=paste("~/CS_SCR/posteriors/posterior-", dependency, "-", type, "-large.csv", sep=""))
+   write.csv(u, file=paste("~/posteriors/posterior-", dependency_, "-", type, "-large.csv", sep=""))
 }
 
 
