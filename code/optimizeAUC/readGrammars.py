@@ -7,7 +7,7 @@ same = defaultdict(int)
 
 dist_d, dist_n, dist_a = 0, 0, 0
 languages = set()
-with open("output/NP_and_basic.tsv", "w") as outFile:
+with open(f"output/{__file__}.tsv", "w") as outFile:
  print("\t".join(["language", "basic", "np", "Dist_D", "Dist_N", "Dist_A"]), file=outFile)
  for f in sorted(files):
    data = [x.split("\t") for x in open(DIR+"/"+f, "r").read().strip().split("\n")]
