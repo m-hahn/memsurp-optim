@@ -1,414 +1,414 @@
-language	basic	np	Dist_D	Dist_N	Dist_A
-Afrikaans_2.8	OSV	A_ND	2	1	1
-Afrikaans_2.8	OSV	A_ND	2	1	1
-Afrikaans_2.8	SVO	A_ND	2	1	1
-Akkadian_2.8	SVO	DNA_	3	2	1
-Akkadian_2.8	SVO	NDA_	2	3	1
-Akkadian_2.8	SVO	DNA_	3	2	1
-Akkadian_2.8	SVO	A_ND	2	1	1
-Akkadian_2.8	OSV	A_DN	1	2	1
-Akkadian_2.8	SOV	DNA_	3	2	1
-Amharic_2.8	SOV	AND_	1	2	3
-Amharic_2.8	SOV	AND_	1	2	3
-Amharic_2.8	SVO	AN_D	1	1	2
-Amharic_2.8	SVO	AN_D	1	1	2
-Amharic_2.8	SVO	AN_D	1	1	2
-Amharic_2.8	SOV	AND_	1	2	3
-Amharic_2.8	SVO	NDA_	2	3	1
-Amharic_2.8	SOV	DAN_	3	1	2
-Ancient_Greek_2.8	SOV	AD_N	1	1	2
-Ancient_Greek_2.8	SVO	AND_	1	2	3
-Arabic_2.8	OSV	NAD_	1	3	2
-Arabic_2.8	SVO	DNA_	3	2	1
-Arabic_2.8	OSV	AND_	1	2	3
-Armenian_2.8	SVO	DNA_	3	2	1
-Armenian_2.8	SVO	NA_D	1	2	1
-Bambara_2.8	SOV	A_DN	1	2	1
-Bambara_2.8	SOV	NDA_	2	3	1
-Bambara_2.8	SOV	A_DN	1	2	1
-Basque_2.8	OSV	DNA_	3	2	1
-Basque_2.8	SOV	DNA_	3	2	1
-Basque_2.8	SOV	NDA_	2	3	1
-Basque_2.8	SOV	A_ND	2	1	1
-Belarusian_2.8	SOV	A_ND	2	1	1
-Belarusian_2.8	SVO	DNA_	3	2	1
-Belarusian_2.8	SVO	DA_N	2	1	1
-Belarusian_2.8	SVO	DA_N	2	1	1
-Belarusian_2.8	SVO	DA_N	2	1	1
-Belarusian_2.8	SVO	DA_N	2	1	1
-Breton_2.8	SOV	A_ND	2	1	1
-Breton_2.8	SOV	DAN_	3	1	2
-Breton_2.8	SOV	A_ND	2	1	1
-Breton_2.8	SOV	DAN_	3	1	2
-Breton_2.8	SOV	DAN_	3	1	2
-Breton_2.8	SOV	DAN_	3	1	2
-Breton_2.8	OSV	A_ND	2	1	1
-Bulgarian_2.8	SOV	NA_D	1	2	1
-Bulgarian_2.8	SOV	NA_D	1	2	1
-Bulgarian_2.8	OSV	NA_D	1	2	1
-Bulgarian_2.8	SOV	AN_D	1	1	2
-Bulgarian_2.8	SOV	NA_D	1	2	1
-Bulgarian_2.8	SOV	DAN_	3	1	2
-Bulgarian_2.8	SOV	DA_N	2	1	1
-Buryat_2.8	SVO	NDA_	2	3	1
-Buryat_2.8	SOV	NDA_	2	3	1
-Buryat_2.8	SOV	NA_D	1	2	1
-Buryat_2.8	SOV	NDA_	2	3	1
-Buryat_2.8	SOV	NDA_	2	3	1
-Buryat_2.8	SVO	NAD_	1	3	2
-Buryat_2.8	SVO	NAD_	1	3	2
-Buryat_2.8	SOV	A_DN	1	2	1
-Buryat_2.8	SOV	DAN_	3	1	2
-Buryat_2.8	SOV	DA_N	2	1	1
-Buryat_2.8	SVO	NDA_	2	3	1
-Cantonese_2.8	SVO	ADN_	2	1	3
-Cantonese_2.8	SOV	DNA_	3	2	1
-Cantonese_2.8	SVO	DNA_	3	2	1
-Cantonese_2.8	SVO	NA_D	1	2	1
-Cantonese_2.8	SOV	DNA_	3	2	1
-Cantonese_2.8	SVO	ADN_	2	1	3
-Cantonese_2.8	SVO	DAN_	3	1	2
-Cantonese_2.8	SVO	ADN_	2	1	3
-Cantonese_2.8	SOV	A_ND	2	1	1
-Catalan_2.8	SVO	NA_D	1	2	1
-Catalan_2.8	SVO	NA_D	1	2	1
-Catalan_2.8	SVO	NA_D	1	2	1
-Chinese_2.8	SOV	ADN_	2	1	3
-Chinese_2.8	SOV	AN_D	1	1	2
-Chinese_2.8	SOV	DAN_	3	1	2
-Chinese_2.8	SOV	A_ND	2	1	1
-Chinese_2.8	SVO	DAN_	3	1	2
-Chinese_2.8	OSV	AN_D	1	1	2
-Classical_Chinese_2.8	SOV	AN_D	1	1	2
-Classical_Chinese_2.8	SOV	DNA_	3	2	1
-Classical_Chinese_2.8	SOV	DNA_	3	2	1
-Classical_Chinese_2.8	SOV	A_ND	2	1	1
-Classical_Chinese_2.8	SOV	DA_N	2	1	1
-Classical_Chinese_2.8	SOV	DA_N	2	1	1
-Coptic_2.8	SVO	NA_D	1	2	1
-Coptic_2.8	SVO	A_ND	2	1	1
-Coptic_2.8	SVO	DA_N	2	1	1
-Coptic_2.8	SVO	DA_N	2	1	1
-Croatian_2.8	SOV	DA_N	2	1	1
-Croatian_2.8	SOV	DA_N	2	1	1
-Croatian_2.8	SOV	DA_N	2	1	1
-Croatian_2.8	SVO	DA_N	2	1	1
-Croatian_2.8	OSV	DA_N	2	1	1
-Croatian_2.8	SOV	AD_N	1	1	2
-Croatian_2.8	SOV	NAD_	1	3	2
-Danish_2.8	SVO	AN_D	1	1	2
-Danish_2.8	SVO	DAN_	3	1	2
-Danish_2.8	SVO	NDA_	2	3	1
-Danish_2.8	OSV	NDA_	2	3	1
-Dutch_2.8	SVO	NA_D	1	2	1
-Dutch_2.8	SVO	NA_D	1	2	1
-Dutch_2.8	SVO	A_ND	2	1	1
-Dutch_2.8	SVO	NA_D	1	2	1
-Dutch_2.8	SVO	A_ND	2	1	1
-Dutch_2.8	SVO	NA_D	1	2	1
-English_2.8	SVO	AN_D	1	1	2
-English_2.8	SVO	A_ND	2	1	1
-English_2.8	SVO	A_DN	1	2	1
-English_2.8	SVO	NA_D	1	2	1
-English_2.8	SVO	NA_D	1	2	1
-English_2.8	SVO	NDA_	2	3	1
-Erzya_2.8	SVO	NDA_	2	3	1
-Erzya_2.8	SVO	NDA_	2	3	1
-Erzya_2.8	SVO	NDA_	2	3	1
-Estonian_2.8	SOV	DAN_	3	1	2
-Estonian_2.8	SOV	DAN_	3	1	2
-Estonian_2.8	SOV	DAN_	3	1	2
-Estonian_2.8	OSV	DAN_	3	1	2
-Estonian_2.8	OSV	DAN_	3	1	2
-Estonian_2.8	SOV	DAN_	3	1	2
-Estonian_2.8	OSV	DAN_	3	1	2
-Faroese_2.8	SVO	DAN_	3	1	2
-Faroese_2.8	SVO	AN_D	1	1	2
-Faroese_2.8	SVO	NDA_	2	3	1
-Faroese_2.8	SVO	DAN_	3	1	2
-Faroese_2.8	SVO	NA_D	1	2	1
-Faroese_2.8	SVO	DAN_	3	1	2
-Faroese_2.8	SVO	A_ND	2	1	1
-Faroese_2.8	SVO	DAN_	3	1	2
-Faroese_2.8	SVO	AN_D	1	1	2
-Faroese_2.8	SVO	DA_N	2	1	1
-Faroese_2.8	SVO	DA_N	2	1	1
-Finnish_2.8	OSV	AND_	1	2	3
-Finnish_2.8	OSV	DAN_	3	1	2
-Finnish_2.8	OSV	DAN_	3	1	2
-Finnish_2.8	OSV	AND_	1	2	3
-French_2.8	OSV	A_ND	2	1	1
-French_2.8	SVO	AN_D	1	1	2
-Galician_2.8	OSV	A_DN	1	2	1
-Galician_2.8	SVO	A_DN	1	2	1
-German-GSD_2.6	SVO	AN_D	1	1	2
-German-GSD_2.6	SVO	AN_D	1	1	2
-German-GSD_2.6	SVO	NA_D	1	2	1
-German-GSD_2.6	SVO	AN_D	1	1	2
-German-GSD_2.6	SVO	NA_D	1	2	1
-Gothic_2.8	SOV	DA_N	2	1	1
-Gothic_2.8	SOV	DA_N	2	1	1
-Gothic_2.8	SVO	DA_N	2	1	1
-Gothic_2.8	OSV	DA_N	2	1	1
-Gothic_2.8	SOV	DA_N	2	1	1
-Greek_2.8	SVO	A_DN	1	2	1
-Greek_2.8	SVO	A_DN	1	2	1
-Greek_2.8	SOV	NA_D	1	2	1
-Hebrew_2.8	SOV	ADN_	2	1	3
-Hindi_2.8	OSV	DNA_	3	2	1
-Hindi_2.8	SVO	DNA_	3	2	1
-Hindi_2.8	OSV	DNA_	3	2	1
-Hindi_2.8	SVO	DNA_	3	2	1
-Hindi_2.8	OSV	DNA_	3	2	1
-Hindi_2.8	OSV	DNA_	3	2	1
-Hungarian_2.8	SVO	DAN_	3	1	2
-Hungarian_2.8	OSV	DAN_	3	1	2
-Hungarian_2.8	OSV	AD_N	1	1	2
-Hungarian_2.8	SVO	DAN_	3	1	2
-Hungarian_2.8	OSV	DAN_	3	1	2
-Hungarian_2.8	SOV	DAN_	3	1	2
-Hungarian_2.8	OSV	ADN_	2	1	3
-Hungarian_2.8	SVO	DAN_	3	1	2
-Hungarian_2.8	SOV	DAN_	3	1	2
-Hungarian_2.8	OSV	AD_N	1	1	2
-Icelandic_2.8	OSV	NA_D	1	2	1
-Icelandic_2.8	SVO	DNA_	3	2	1
-Icelandic_2.8	OSV	DA_N	2	1	1
-Icelandic_2.8	SVO	DAN_	3	1	2
-Icelandic_2.8	SVO	DAN_	3	1	2
-Indonesian_2.8	SVO	DNA_	3	2	1
-Indonesian_2.8	SVO	NA_D	1	2	1
-Indonesian_2.8	SVO	NA_D	1	2	1
-Indonesian_2.8	SVO	NA_D	1	2	1
-Indonesian_2.8	SVO	DA_N	2	1	1
-Irish_2.8	SVO	NA_D	1	2	1
-Irish_2.8	OSV	A_DN	1	2	1
-Irish_2.8	SVO	A_DN	1	2	1
-Italian_2.8	OSV	NA_D	1	2	1
-Italian_2.8	OSV	NA_D	1	2	1
-Italian_2.8	OSV	NA_D	1	2	1
-Italian_2.8	OSV	NA_D	1	2	1
-Italian_2.8	OSV	AN_D	1	1	2
-Italian_2.8	SVO	AN_D	1	1	2
-Japanese-GSD_2.6	SVO	NA_D	1	2	1
-Japanese-GSD_2.6	SOV	AND_	1	2	3
-Japanese-GSD_2.6	SOV	AND_	1	2	3
-Japanese-GSD_2.6	SOV	DNA_	3	2	1
-Japanese-GSD_2.6	SVO	NA_D	1	2	1
-Japanese-GSD_2.6	SOV	AND_	1	2	3
-Kazakh_2.8	SOV	DAN_	3	1	2
-Kazakh_2.8	SOV	DAN_	3	1	2
-Kazakh_2.8	OSV	AN_D	1	1	2
-Kazakh_2.8	SOV	DAN_	3	1	2
-Kiche_2.8	SOV	NAD_	1	3	2
-Komi_Zyrian_2.8	SVO	A_DN	1	2	1
-Komi_Zyrian_2.8	SVO	DA_N	2	1	1
-Komi_Zyrian_2.8	SVO	A_DN	1	2	1
-Korean_2.8	SOV	DAN_	3	1	2
-Kurmanji_2.8	SVO	A_DN	1	2	1
-Kurmanji_2.8	SVO	NDA_	2	3	1
-Kurmanji_2.8	SOV	A_DN	1	2	1
-Kurmanji_2.8	SVO	A_DN	1	2	1
-Kurmanji_2.8	SVO	A_ND	2	1	1
-Kurmanji_2.8	OSV	A_ND	2	1	1
-Latin_2.8	SOV	NAD_	1	3	2
-Latin_2.8	SVO	ADN_	2	1	3
-Latin_2.8	SVO	ADN_	2	1	3
-Latin_2.8	SVO	NAD_	1	3	2
-Latin_2.8	SOV	NAD_	1	3	2
-Latin_2.8	SOV	NAD_	1	3	2
-Latvian_2.8	OSV	ADN_	2	1	3
-Latvian_2.8	SVO	DAN_	3	1	2
-Latvian_2.8	SVO	ADN_	2	1	3
-Latvian_2.8	SVO	DAN_	3	1	2
-Latvian_2.8	SVO	DAN_	3	1	2
-Lithuanian_2.8	SVO	NDA_	2	3	1
-Lithuanian_2.8	SOV	DA_N	2	1	1
-Lithuanian_2.8	SVO	NDA_	2	3	1
-Lithuanian_2.8	SOV	DA_N	2	1	1
-Lithuanian_2.8	SOV	NA_D	1	2	1
-Lithuanian_2.8	SVO	DA_N	2	1	1
-Lithuanian_2.8	SVO	DA_N	2	1	1
-Lithuanian_2.8	SVO	DA_N	2	1	1
-Maltese_2.8	SVO	A_DN	1	2	1
-Maltese_2.8	OSV	A_ND	2	1	1
-Maltese_2.8	OSV	A_ND	2	1	1
-Maltese_2.8	OSV	DA_N	2	1	1
-Maltese_2.8	SVO	A_ND	2	1	1
-Maltese_2.8	OSV	A_ND	2	1	1
-Manx_2.8	SVO	A_DN	1	2	1
-Manx_2.8	SVO	A_ND	2	1	1
-Manx_2.8	SVO	A_DN	1	2	1
-Manx_2.8	SVO	AN_D	1	1	2
-Mbya_Guarani_2.8	SVO	DA_N	2	1	1
-Mbya_Guarani_2.8	SVO	A_DN	1	2	1
-Mbya_Guarani_2.8	SOV	DAN_	3	1	2
-Mbya_Guarani_2.8	SVO	A_ND	2	1	1
-Naija_2.8	SVO	DA_N	2	1	1
-Naija_2.8	SVO	DA_N	2	1	1
-Naija_2.8	SVO	DA_N	2	1	1
-Naija_2.8	SVO	DA_N	2	1	1
-Naija_2.8	SVO	DNA_	3	2	1
-North_Sami_2.8	SVO	NAD_	1	3	2
-North_Sami_2.8	SVO	NAD_	1	3	2
-North_Sami_2.8	SOV	NA_D	1	2	1
-North_Sami_2.8	SVO	NAD_	1	3	2
-North_Sami_2.8	SVO	AD_N	1	1	2
-North_Sami_2.8	SVO	NA_D	1	2	1
-North_Sami_2.8	SOV	NA_D	1	2	1
-North_Sami_2.8	SVO	NA_D	1	2	1
-Norwegian_2.8	OSV	NAD_	1	3	2
-Norwegian_2.8	SOV	AND_	1	2	3
-Old_Church_Slavonic_2.8	SVO	DAN_	3	1	2
-Old_Church_Slavonic_2.8	SOV	DAN_	3	1	2
-Old_Church_Slavonic_2.8	SVO	DA_N	2	1	1
-Old_Church_Slavonic_2.8	SVO	DNA_	3	2	1
-Old_Church_Slavonic_2.8	SVO	NDA_	2	3	1
-Old_East_Slavic_2.8	SVO	DAN_	3	1	2
-Old_East_Slavic_2.8	SOV	A_ND	2	1	1
-Old_French_2.8	SVO	DAN_	3	1	2
-Old_French_2.8	SOV	DAN_	3	1	2
-Old_French_2.8	SVO	DAN_	3	1	2
-Old_French_2.8	SVO	A_ND	2	1	1
-Old_French_2.8	SVO	DAN_	3	1	2
-Old_French_2.8	OSV	DAN_	3	1	2
-Old_French_2.8	SVO	A_ND	2	1	1
-Old_French_2.8	SVO	DAN_	3	1	2
-Persian_2.8	SOV	DAN_	3	1	2
-Persian_2.8	OSV	DA_N	2	1	1
-Persian_2.8	SOV	DAN_	3	1	2
-Persian_2.8	SOV	DAN_	3	1	2
-Persian_2.8	SOV	DAN_	3	1	2
-Persian_2.8	SOV	DNA_	3	2	1
-Persian_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SVO	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SVO	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Polish_2.8	SOV	DAN_	3	1	2
-Portuguese_2.8	OSV	NA_D	1	2	1
-Portuguese_2.8	OSV	NA_D	1	2	1
-Portuguese_2.8	OSV	NA_D	1	2	1
-Portuguese_2.8	OSV	A_ND	2	1	1
-Portuguese_2.8	OSV	A_ND	2	1	1
-Portuguese_2.8	SOV	A_DN	1	2	1
-Portuguese_2.8	OSV	NA_D	1	2	1
-Romanian_2.8	SOV	ADN_	2	1	3
-Romanian_2.8	SOV	NA_D	1	2	1
-Romanian_2.8	SOV	NA_D	1	2	1
-Romanian_2.8	SVO	NAD_	1	3	2
-Romanian_2.8	SOV	NA_D	1	2	1
-Russian_2.8	SVO	DNA_	3	2	1
-Russian_2.8	SOV	DNA_	3	2	1
-Russian_2.8	SVO	DNA_	3	2	1
-Sanskrit_2.8	OSV	A_DN	1	2	1
-Sanskrit_2.8	SVO	A_DN	1	2	1
-Sanskrit_2.8	SVO	AD_N	1	1	2
-Sanskrit_2.8	SVO	AD_N	1	1	2
-Sanskrit_2.8	SOV	AD_N	1	1	2
-Scottish_Gaelic_2.8	SVO	AN_D	1	1	2
-Scottish_Gaelic_2.8	SVO	A_DN	1	2	1
-Scottish_Gaelic_2.8	OSV	NA_D	1	2	1
-Scottish_Gaelic_2.8	SVO	NDA_	2	3	1
-Scottish_Gaelic_2.8	OSV	NA_D	1	2	1
-Scottish_Gaelic_2.8	OSV	A_ND	2	1	1
-Scottish_Gaelic_2.8	OSV	A_ND	2	1	1
-Serbian_2.8	OSV	DNA_	3	2	1
-Serbian_2.8	SOV	NA_D	1	2	1
-Serbian_2.8	OSV	NA_D	1	2	1
-Serbian_2.8	SOV	NAD_	1	3	2
-Serbian_2.8	OSV	A_ND	2	1	1
-Serbian_2.8	OSV	A_DN	1	2	1
-Serbian_2.8	OSV	AD_N	1	1	2
-Serbian_2.8	OSV	NA_D	1	2	1
-Serbian_2.8	OSV	DNA_	3	2	1
-Slovak_2.8	SVO	AN_D	1	1	2
-Slovak_2.8	OSV	AN_D	1	1	2
-Slovak_2.8	OSV	AN_D	1	1	2
-Slovak_2.8	OSV	NA_D	1	2	1
-Slovak_2.8	SOV	DAN_	3	1	2
-Slovak_2.8	SOV	DAN_	3	1	2
-Slovenian_2.8	OSV	NA_D	1	2	1
-Slovenian_2.8	OSV	NDA_	2	3	1
-Slovenian_2.8	SOV	DNA_	3	2	1
-Slovenian_2.8	OSV	DAN_	3	1	2
-Slovenian_2.8	OSV	DNA_	3	2	1
-Slovenian_2.8	OSV	DAN_	3	1	2
-Spanish_2.8	SVO	NA_D	1	2	1
-Spanish_2.8	OSV	NA_D	1	2	1
-Spanish_2.8	SVO	NA_D	1	2	1
-Spanish_2.8	SVO	NA_D	1	2	1
-Spanish_2.8	SVO	NA_D	1	2	1
-Swedish_2.8	SVO	NAD_	1	3	2
-Swedish_2.8	SVO	NAD_	1	3	2
-Swedish_2.8	SVO	NDA_	2	3	1
-Swedish_2.8	SVO	NAD_	1	3	2
-Swedish_2.8	SVO	NDA_	2	3	1
-Swedish_2.8	SVO	AND_	1	2	3
-Swedish_2.8	SVO	AD_N	1	1	2
-Swedish_2.8	SVO	NAD_	1	3	2
-Thai_2.8	OSV	DNA_	3	2	1
-Thai_2.8	SVO	DNA_	3	2	1
-Thai_2.8	OSV	DNA_	3	2	1
-Thai_2.8	SOV	A_ND	2	1	1
-Thai_2.8	SOV	A_ND	2	1	1
-Thai_2.8	SVO	DAN_	3	1	2
-Turkish_2.8	SOV	AND_	1	2	3
-Turkish_2.8	SOV	AD_N	1	1	2
-Turkish_2.8	SOV	AND_	1	2	3
-Turkish_2.8	SOV	AND_	1	2	3
-Turkish_2.8	SOV	AND_	1	2	3
-Turkish_2.8	SOV	ADN_	2	1	3
-Turkish_2.8	SOV	ADN_	2	1	3
-Ukrainian_2.8	SOV	NDA_	2	3	1
-Ukrainian_2.8	SOV	NDA_	2	3	1
-Ukrainian_2.8	SOV	DA_N	2	1	1
-Ukrainian_2.8	SVO	NDA_	2	3	1
-Upper_Sorbian_2.8	OSV	AD_N	1	1	2
-Upper_Sorbian_2.8	SOV	NA_D	1	2	1
-Upper_Sorbian_2.8	OSV	NA_D	1	2	1
-Upper_Sorbian_2.8	SOV	DA_N	2	1	1
-Upper_Sorbian_2.8	OSV	DNA_	3	2	1
-Upper_Sorbian_2.8	SVO	A_DN	1	2	1
-Upper_Sorbian_2.8	SOV	NA_D	1	2	1
-Upper_Sorbian_2.8	SOV	NA_D	1	2	1
-Upper_Sorbian_2.8	OSV	NA_D	1	2	1
-Upper_Sorbian_2.8	OSV	A_ND	2	1	1
-Upper_Sorbian_2.8	SOV	DA_N	2	1	1
-Upper_Sorbian_2.8	SVO	A_DN	1	2	1
-Urdu_2.8	SOV	NDA_	2	3	1
-Urdu_2.8	SOV	NDA_	2	3	1
-Urdu_2.8	SOV	NDA_	2	3	1
-Uyghur_2.8	SOV	DAN_	3	1	2
-Uyghur_2.8	SOV	DAN_	3	1	2
-Uyghur_2.8	SOV	NDA_	2	3	1
-Uyghur_2.8	SVO	DAN_	3	1	2
-Uyghur_2.8	SOV	NDA_	2	3	1
-Vietnamese_2.8	SOV	AN_D	1	1	2
-Vietnamese_2.8	SOV	NAD_	1	3	2
-Vietnamese_2.8	SOV	NA_D	1	2	1
-Vietnamese_2.8	SVO	NAD_	1	3	2
-Vietnamese_2.8	SOV	NA_D	1	2	1
-Welsh_2.8	OSV	A_ND	2	1	1
-Welsh_2.8	OSV	A_ND	2	1	1
-Welsh_2.8	SOV	DNA_	3	2	1
-Welsh_2.8	OSV	A_ND	2	1	1
-Welsh_2.8	OSV	A_ND	2	1	1
-Western_Armenian_2.8	SVO	ADN_	2	1	3
-Western_Armenian_2.8	SVO	AD_N	1	1	2
-Western_Armenian_2.8	OSV	A_DN	1	2	1
-Western_Armenian_2.8	OSV	A_DN	1	2	1
-Western_Armenian_2.8	SVO	AN_D	1	1	2
-Western_Armenian_2.8	OSV	AD_N	1	1	2
-Western_Armenian_2.8	SOV	NA_D	1	2	1
-Western_Armenian_2.8	SVO	ADN_	2	1	3
-Wolof_2.8	SVO	A_DN	1	2	1
-Wolof_2.8	OSV	AND_	1	2	3
-Wolof_2.8	SVO	A_DN	1	2	1
-Wolof_2.8	SVO	A_DN	1	2	1
-Wolof_2.8	SVO	A_DN	1	2	1
-Wolof_2.8	SVO	A_DN	1	2	1
-Wolof_2.8	SVO	A_DN	1	2	1
+language	basic	np	Dist_D	Dist_N	Dist_A	Surprisal2	DepLen
+Afrikaans_2.8	OSV	A_ND	2	1	1	5.93	3.134
+Afrikaans_2.8	OSV	A_ND	2	1	1	5.936	3.182
+Afrikaans_2.8	SVO	A_ND	2	1	1	6.017	6.528
+Akkadian_2.8	SVO	DNA_	3	2	1	4.572	3.946
+Akkadian_2.8	SVO	NDA_	2	3	1	4.468	3.276
+Akkadian_2.8	SVO	DNA_	3	2	1	4.498	3.583
+Akkadian_2.8	SVO	A_ND	2	1	1	4.459	3.347
+Akkadian_2.8	OSV	A_DN	1	2	1	4.466	3.215
+Akkadian_2.8	SOV	DNA_	3	2	1	4.469	3.444
+Amharic_2.8	SOV	AND_	1	2	3	4.973	2.8
+Amharic_2.8	SOV	AND_	1	2	3	4.968	2.524
+Amharic_2.8	SVO	AN_D	1	1	2	4.953	2.246
+Amharic_2.8	SVO	AN_D	1	1	2	5.103	2.474
+Amharic_2.8	SVO	AN_D	1	1	2	4.963	2.299
+Amharic_2.8	SOV	AND_	1	2	3	5.124	2.127
+Amharic_2.8	SVO	NDA_	2	3	1	5.041	2.291
+Amharic_2.8	SOV	DAN_	3	1	2	4.99	2.564
+Ancient_Greek_2.8	SOV	AD_N	1	1	2	7.512	2.773
+Ancient_Greek_2.8	SVO	AND_	1	2	3	7.476	3.082
+Arabic_2.8	OSV	NAD_	1	3	2	2.457	3.029
+Arabic_2.8	SVO	DNA_	3	2	1	2.477	3.774
+Arabic_2.8	OSV	AND_	1	2	3	2.454	3.018
+Armenian_2.8	SVO	DNA_	3	2	1	7.917	2.936
+Armenian_2.8	SVO	NA_D	1	2	1	7.898	2.943
+Bambara_2.8	SOV	A_DN	1	2	1	4.36	2.244
+Bambara_2.8	SOV	NDA_	2	3	1	4.301	2.422
+Bambara_2.8	SOV	A_DN	1	2	1	4.306	2.327
+Basque_2.8	OSV	DNA_	3	2	1	7.831	2.293
+Basque_2.8	SOV	DNA_	3	2	1	7.8	2.562
+Basque_2.8	SOV	NDA_	2	3	1	7.803	2.766
+Basque_2.8	SOV	A_ND	2	1	1	7.804	2.655
+Belarusian_2.8	SOV	A_ND	2	1	1	8.105	2.396
+Belarusian_2.8	SVO	DNA_	3	2	1	8.084	2.614
+Belarusian_2.8	SVO	DA_N	2	1	1	8.067	2.42
+Belarusian_2.8	SVO	DA_N	2	1	1	8.088	2.573
+Belarusian_2.8	SVO	DA_N	2	1	1	8.066	2.399
+Belarusian_2.8	SVO	DA_N	2	1	1	8.065	2.427
+Breton_2.8	SOV	A_ND	2	1	1	5.913	2.388
+Breton_2.8	SOV	DAN_	3	1	2	5.934	2.243
+Breton_2.8	SOV	A_ND	2	1	1	5.935	2.385
+Breton_2.8	SOV	DAN_	3	1	2	6.062	2.535
+Breton_2.8	SOV	DAN_	3	1	2	5.928	2.233
+Breton_2.8	SOV	DAN_	3	1	2	5.929	2.234
+Breton_2.8	OSV	A_ND	2	1	1	5.971	2.284
+Bulgarian_2.8	SOV	NA_D	1	2	1	7.359	2.54
+Bulgarian_2.8	SOV	NA_D	1	2	1	7.342	2.813
+Bulgarian_2.8	OSV	NA_D	1	2	1	7.343	2.659
+Bulgarian_2.8	SOV	AN_D	1	1	2	7.418	2.928
+Bulgarian_2.8	SOV	NA_D	1	2	1	7.342	2.804
+Bulgarian_2.8	SOV	DAN_	3	1	2	7.386	2.851
+Bulgarian_2.8	SOV	DA_N	2	1	1	7.421	2.933
+Buryat_2.8	SVO	NDA_	2	3	1	7.882	2.36
+Buryat_2.8	SOV	NDA_	2	3	1	7.865	2.268
+Buryat_2.8	SOV	NA_D	1	2	1	7.865	2.184
+Buryat_2.8	SOV	NDA_	2	3	1	7.905	2.162
+Buryat_2.8	SOV	NDA_	2	3	1	7.95	2.086
+Buryat_2.8	SVO	NAD_	1	3	2	7.886	2.259
+Buryat_2.8	SVO	NAD_	1	3	2	7.909	2.177
+Buryat_2.8	SOV	A_DN	1	2	1	7.899	2.202
+Buryat_2.8	SOV	DAN_	3	1	2	7.891	2.128
+Buryat_2.8	SOV	DA_N	2	1	1	7.869	2.13
+Buryat_2.8	SVO	NDA_	2	3	1	7.896	2.326
+Cantonese_2.8	SVO	ADN_	2	1	3	5.299	2.664
+Cantonese_2.8	SOV	DNA_	3	2	1	5.22	3.149
+Cantonese_2.8	SVO	DNA_	3	2	1	5.311	2.755
+Cantonese_2.8	SVO	NA_D	1	2	1	5.291	3.167
+Cantonese_2.8	SOV	DNA_	3	2	1	5.238	2.941
+Cantonese_2.8	SVO	ADN_	2	1	3	5.285	2.662
+Cantonese_2.8	SVO	DAN_	3	1	2	5.367	2.459
+Cantonese_2.8	SVO	ADN_	2	1	3	5.263	2.648
+Cantonese_2.8	SOV	A_ND	2	1	1	5.285	2.843
+Catalan_2.8	SVO	NA_D	1	2	1	5.735	3.269
+Catalan_2.8	SVO	NA_D	1	2	1	5.749	3.267
+Catalan_2.8	SVO	NA_D	1	2	1	5.759	3.543
+Chinese_2.8	SOV	ADN_	2	1	3	7.486	2.941
+Chinese_2.8	SOV	AN_D	1	1	2	7.477	2.967
+Chinese_2.8	SOV	DAN_	3	1	2	7.521	3.15
+Chinese_2.8	SOV	A_ND	2	1	1	7.499	3.068
+Chinese_2.8	SVO	DAN_	3	1	2	7.482	2.832
+Chinese_2.8	OSV	AN_D	1	1	2	7.482	2.92
+Classical_Chinese_2.8	SOV	AN_D	1	1	2	5.512	1.719
+Classical_Chinese_2.8	SOV	DNA_	3	2	1	5.51	1.828
+Classical_Chinese_2.8	SOV	DNA_	3	2	1	5.514	1.708
+Classical_Chinese_2.8	SOV	A_ND	2	1	1	5.521	1.727
+Classical_Chinese_2.8	SOV	DA_N	2	1	1	5.526	1.677
+Classical_Chinese_2.8	SOV	DA_N	2	1	1	5.643	1.834
+Coptic_2.8	SVO	NA_D	1	2	1	4.508	3.458
+Coptic_2.8	SVO	A_ND	2	1	1	4.493	2.949
+Coptic_2.8	SVO	DA_N	2	1	1	4.44	2.966
+Coptic_2.8	SVO	DA_N	2	1	1	4.518	2.812
+Croatian_2.8	SOV	DA_N	2	1	1	7.749	3.121
+Croatian_2.8	SOV	DA_N	2	1	1	7.781	2.732
+Croatian_2.8	SOV	DA_N	2	1	1	7.847	2.779
+Croatian_2.8	SVO	DA_N	2	1	1	7.786	2.756
+Croatian_2.8	OSV	DA_N	2	1	1	7.783	2.821
+Croatian_2.8	SOV	AD_N	1	1	2	7.779	3.033
+Croatian_2.8	SOV	NAD_	1	3	2	7.795	2.746
+Danish_2.8	SVO	AN_D	1	1	2	7.068	3.649
+Danish_2.8	SVO	DAN_	3	1	2	7.027	2.938
+Danish_2.8	SVO	NDA_	2	3	1	7.032	2.953
+Danish_2.8	OSV	NDA_	2	3	1	7.116	2.885
+Dutch_2.8	SVO	NA_D	1	2	1	6.679	2.644
+Dutch_2.8	SVO	NA_D	1	2	1	6.677	2.638
+Dutch_2.8	SVO	A_ND	2	1	1	6.748	2.637
+Dutch_2.8	SVO	NA_D	1	2	1	6.692	2.808
+Dutch_2.8	SVO	A_ND	2	1	1	6.74	2.603
+Dutch_2.8	SVO	NA_D	1	2	1	6.691	2.71
+English_2.8	SVO	AN_D	1	1	2	6.482	2.627
+English_2.8	SVO	A_ND	2	1	1	6.519	2.599
+English_2.8	SVO	A_DN	1	2	1	6.557	2.877
+English_2.8	SVO	NA_D	1	2	1	6.482	2.812
+English_2.8	SVO	NA_D	1	2	1	6.517	2.692
+English_2.8	SVO	NDA_	2	3	1	6.536	3.013
+Erzya_2.8	SVO	NDA_	2	3	1	7.938	2.112
+Erzya_2.8	SVO	NDA_	2	3	1	7.932	2.122
+Erzya_2.8	SVO	NDA_	2	3	1	7.961	2.102
+Estonian_2.8	SOV	DAN_	3	1	2	8.564	2.764
+Estonian_2.8	SOV	DAN_	3	1	2	8.542	2.739
+Estonian_2.8	SOV	DAN_	3	1	2	8.544	2.774
+Estonian_2.8	OSV	DAN_	3	1	2	8.61	2.928
+Estonian_2.8	OSV	DAN_	3	1	2	8.539	2.845
+Estonian_2.8	SOV	DAN_	3	1	2	8.555	2.774
+Estonian_2.8	OSV	DAN_	3	1	2	8.54	2.83
+Faroese_2.8	SVO	DAN_	3	1	2	5.76	2.732
+Faroese_2.8	SVO	AN_D	1	1	2	5.755	2.783
+Faroese_2.8	SVO	NDA_	2	3	1	5.793	2.86
+Faroese_2.8	SVO	DAN_	3	1	2	5.756	2.768
+Faroese_2.8	SVO	NA_D	1	2	1	5.735	3.159
+Faroese_2.8	SVO	DAN_	3	1	2	5.748	2.732
+Faroese_2.8	SVO	A_ND	2	1	1	5.754	2.652
+Faroese_2.8	SVO	DAN_	3	1	2	5.749	2.747
+Faroese_2.8	SVO	AN_D	1	1	2	5.752	2.869
+Faroese_2.8	SVO	DA_N	2	1	1	5.738	2.868
+Faroese_2.8	SVO	DA_N	2	1	1	5.743	2.646
+Finnish_2.8	OSV	AND_	1	2	3	8.763	2.412
+Finnish_2.8	OSV	DAN_	3	1	2	8.791	2.47
+Finnish_2.8	OSV	DAN_	3	1	2	8.779	2.579
+Finnish_2.8	OSV	AND_	1	2	3	8.766	2.413
+French_2.8	OSV	A_ND	2	1	1	6.075	2.919
+French_2.8	SVO	AN_D	1	1	2	6.151	3.602
+Galician_2.8	OSV	A_DN	1	2	1	6.296	3.181
+Galician_2.8	SVO	A_DN	1	2	1	6.276	3.194
+German-GSD_2.6	SVO	AN_D	1	1	2	7.453	2.779
+German-GSD_2.6	SVO	AN_D	1	1	2	7.527	2.848
+German-GSD_2.6	SVO	NA_D	1	2	1	7.486	3.017
+German-GSD_2.6	SVO	AN_D	1	1	2	7.487	2.876
+German-GSD_2.6	SVO	NA_D	1	2	1	7.478	2.634
+Gothic_2.8	SOV	DA_N	2	1	1	6.27	2.573
+Gothic_2.8	SOV	DA_N	2	1	1	6.277	2.852
+Gothic_2.8	SVO	DA_N	2	1	1	6.272	2.567
+Gothic_2.8	OSV	DA_N	2	1	1	6.348	2.366
+Gothic_2.8	SOV	DA_N	2	1	1	6.28	2.848
+Greek_2.8	SVO	A_DN	1	2	1	6.705	3.196
+Greek_2.8	SVO	A_DN	1	2	1	6.701	3.21
+Greek_2.8	SOV	NA_D	1	2	1	6.691	3.428
+Hebrew_2.8	SOV	ADN_	2	1	3	6.363	2.939
+Hindi_2.8	OSV	DNA_	3	2	1	5.829	3.155
+Hindi_2.8	SVO	DNA_	3	2	1	5.971	3.131
+Hindi_2.8	OSV	DNA_	3	2	1	5.825	3.098
+Hindi_2.8	SVO	DNA_	3	2	1	5.901	2.837
+Hindi_2.8	OSV	DNA_	3	2	1	5.869	2.787
+Hindi_2.8	OSV	DNA_	3	2	1	5.761	2.96
+Hungarian_2.8	SVO	DAN_	3	1	2	7.971	3.058
+Hungarian_2.8	OSV	DAN_	3	1	2	7.946	3.092
+Hungarian_2.8	OSV	AD_N	1	1	2	7.956	3.078
+Hungarian_2.8	SVO	DAN_	3	1	2	7.968	3.032
+Hungarian_2.8	OSV	DAN_	3	1	2	8.006	3.097
+Hungarian_2.8	SOV	DAN_	3	1	2	7.993	3.262
+Hungarian_2.8	OSV	ADN_	2	1	3	7.957	3.073
+Hungarian_2.8	SVO	DAN_	3	1	2	7.941	3.111
+Hungarian_2.8	SOV	DAN_	3	1	2	7.979	3.228
+Hungarian_2.8	OSV	AD_N	1	1	2	7.959	2.886
+Icelandic_2.8	OSV	NA_D	1	2	1	6.75	3.106
+Icelandic_2.8	SVO	DNA_	3	2	1	6.699	3.004
+Icelandic_2.8	OSV	DA_N	2	1	1	6.962	5.275
+Icelandic_2.8	SVO	DAN_	3	1	2	6.797	3.401
+Icelandic_2.8	SVO	DAN_	3	1	2	6.713	3.282
+Indonesian_2.8	SVO	DNA_	3	2	1	7.519	2.644
+Indonesian_2.8	SVO	NA_D	1	2	1	7.576	2.698
+Indonesian_2.8	SVO	NA_D	1	2	1	7.524	2.724
+Indonesian_2.8	SVO	NA_D	1	2	1	7.578	2.678
+Indonesian_2.8	SVO	DA_N	2	1	1	7.576	3.208
+Irish_2.8	SVO	NA_D	1	2	1	6.509	3.104
+Irish_2.8	OSV	A_DN	1	2	1	6.623	3.115
+Irish_2.8	SVO	A_DN	1	2	1	6.559	3.232
+Italian_2.8	OSV	NA_D	1	2	1	6.223	3.08
+Italian_2.8	OSV	NA_D	1	2	1	6.208	3.25
+Italian_2.8	OSV	NA_D	1	2	1	6.182	2.88
+Italian_2.8	OSV	NA_D	1	2	1	6.258	3.105
+Italian_2.8	OSV	AN_D	1	1	2	6.262	2.708
+Italian_2.8	SVO	AN_D	1	1	2	6.185	2.996
+Japanese-GSD_2.6	SVO	NA_D	1	2	1	6.382	3.097
+Japanese-GSD_2.6	SOV	AND_	1	2	3	6.311	2.798
+Japanese-GSD_2.6	SOV	AND_	1	2	3	6.514	2.82
+Japanese-GSD_2.6	SOV	DNA_	3	2	1	6.307	2.807
+Japanese-GSD_2.6	SVO	NA_D	1	2	1	6.392	3.09
+Japanese-GSD_2.6	SOV	AND_	1	2	3	6.318	2.779
+Kazakh_2.8	SOV	DAN_	3	1	2	7.864	2.127
+Kazakh_2.8	SOV	DAN_	3	1	2	7.864	2.042
+Kazakh_2.8	OSV	AN_D	1	1	2	7.876	2.305
+Kazakh_2.8	SOV	DAN_	3	1	2	7.878	2.12
+Kiche_2.8	SOV	NAD_	1	3	2	5.551	2.166
+Komi_Zyrian_2.8	SVO	A_DN	1	2	1	7.811	2.485
+Komi_Zyrian_2.8	SVO	DA_N	2	1	1	7.857	2.385
+Komi_Zyrian_2.8	SVO	A_DN	1	2	1	7.856	2.488
+Korean_2.8	SOV	DAN_	3	1	2	9.625	2.579
+Kurmanji_2.8	SVO	A_DN	1	2	1	6.407	2.456
+Kurmanji_2.8	SVO	NDA_	2	3	1	6.392	2.474
+Kurmanji_2.8	SOV	A_DN	1	2	1	6.378	2.651
+Kurmanji_2.8	SVO	A_DN	1	2	1	6.374	2.591
+Kurmanji_2.8	SVO	A_ND	2	1	1	6.367	2.47
+Kurmanji_2.8	OSV	A_ND	2	1	1	6.387	2.518
+Latin_2.8	SOV	NAD_	1	3	2	7.506	2.445
+Latin_2.8	SVO	ADN_	2	1	3	7.475	3.225
+Latin_2.8	SVO	ADN_	2	1	3	7.424	3.521
+Latin_2.8	SVO	NAD_	1	3	2	7.409	3.58
+Latin_2.8	SOV	NAD_	1	3	2	7.476	2.65
+Latin_2.8	SOV	NAD_	1	3	2	7.48	2.806
+Latvian_2.8	OSV	ADN_	2	1	3	8.504	2.762
+Latvian_2.8	SVO	DAN_	3	1	2	8.452	2.786
+Latvian_2.8	SVO	ADN_	2	1	3	8.487	3.066
+Latvian_2.8	SVO	DAN_	3	1	2	8.599	3.446
+Latvian_2.8	SVO	DAN_	3	1	2	8.447	2.8
+Lithuanian_2.8	SVO	NDA_	2	3	1	8.096	2.883
+Lithuanian_2.8	SOV	DA_N	2	1	1	8.099	2.956
+Lithuanian_2.8	SVO	NDA_	2	3	1	8.101	2.765
+Lithuanian_2.8	SOV	DA_N	2	1	1	8.085	2.844
+Lithuanian_2.8	SOV	NA_D	1	2	1	8.112	2.921
+Lithuanian_2.8	SVO	DA_N	2	1	1	8.098	2.778
+Lithuanian_2.8	SVO	DA_N	2	1	1	8.108	2.718
+Lithuanian_2.8	SVO	DA_N	2	1	1	8.078	2.929
+Maltese_2.8	SVO	A_DN	1	2	1	6.618	2.859
+Maltese_2.8	OSV	A_ND	2	1	1	6.606	2.604
+Maltese_2.8	OSV	A_ND	2	1	1	6.606	2.582
+Maltese_2.8	OSV	DA_N	2	1	1	6.62	2.773
+Maltese_2.8	SVO	A_ND	2	1	1	6.658	3.118
+Maltese_2.8	OSV	A_ND	2	1	1	6.642	3.15
+Manx_2.8	SVO	A_DN	1	2	1	4.833	2.071
+Manx_2.8	SVO	A_ND	2	1	1	4.852	2.082
+Manx_2.8	SVO	A_DN	1	2	1	4.834	2.052
+Manx_2.8	SVO	AN_D	1	1	2	4.839	1.995
+Mbya_Guarani_2.8	SVO	DA_N	2	1	1	1.13	2.236
+Mbya_Guarani_2.8	SVO	A_DN	1	2	1	1.113	2.108
+Mbya_Guarani_2.8	SOV	DAN_	3	1	2	1.121	2.094
+Mbya_Guarani_2.8	SVO	A_ND	2	1	1	1.095	2.109
+Naija_2.8	SVO	DA_N	2	1	1	4.726	3.573
+Naija_2.8	SVO	DA_N	2	1	1	4.373	3.081
+Naija_2.8	SVO	DA_N	2	1	1	4.324	3.036
+Naija_2.8	SVO	DA_N	2	1	1	4.323	3.031
+Naija_2.8	SVO	DNA_	3	2	1	4.34	3.812
+North_Sami_2.8	SVO	NAD_	1	3	2	7.303	2.456
+North_Sami_2.8	SVO	NAD_	1	3	2	7.306	2.334
+North_Sami_2.8	SOV	NA_D	1	2	1	7.311	2.293
+North_Sami_2.8	SVO	NAD_	1	3	2	7.333	2.024
+North_Sami_2.8	SVO	AD_N	1	1	2	7.312	2.405
+North_Sami_2.8	SVO	NA_D	1	2	1	7.318	2.226
+North_Sami_2.8	SOV	NA_D	1	2	1	7.311	2.437
+North_Sami_2.8	SVO	NA_D	1	2	1	7.321	2.09
+Norwegian_2.8	OSV	NAD_	1	3	2	6.82	2.666
+Norwegian_2.8	SOV	AND_	1	2	3	6.859	2.78
+Old_Church_Slavonic_2.8	SVO	DAN_	3	1	2	6.116	2.45
+Old_Church_Slavonic_2.8	SOV	DAN_	3	1	2	6.107	2.652
+Old_Church_Slavonic_2.8	SVO	DA_N	2	1	1	6.198	2.448
+Old_Church_Slavonic_2.8	SVO	DNA_	3	2	1	6.165	2.435
+Old_Church_Slavonic_2.8	SVO	NDA_	2	3	1	6.1	2.692
+Old_East_Slavic_2.8	SVO	DAN_	3	1	2	7.496	2.576
+Old_East_Slavic_2.8	SOV	A_ND	2	1	1	7.512	2.631
+Old_French_2.8	SVO	DAN_	3	1	2	6.127	2.402
+Old_French_2.8	SOV	DAN_	3	1	2	6.138	2.399
+Old_French_2.8	SVO	DAN_	3	1	2	6.105	2.443
+Old_French_2.8	SVO	A_ND	2	1	1	6.111	2.426
+Old_French_2.8	SVO	DAN_	3	1	2	6.107	2.396
+Old_French_2.8	OSV	DAN_	3	1	2	6.147	2.554
+Old_French_2.8	SVO	A_ND	2	1	1	6.122	2.428
+Old_French_2.8	SVO	DAN_	3	1	2	6.107	2.465
+Persian_2.8	SOV	DAN_	3	1	2	6.698	2.696
+Persian_2.8	OSV	DA_N	2	1	1	6.814	3.234
+Persian_2.8	SOV	DAN_	3	1	2	6.701	2.67
+Persian_2.8	SOV	DAN_	3	1	2	6.698	2.695
+Persian_2.8	SOV	DAN_	3	1	2	6.73	2.694
+Persian_2.8	SOV	DNA_	3	2	1	6.697	2.739
+Persian_2.8	SOV	DAN_	3	1	2	6.748	2.735
+Polish_2.8	SOV	DAN_	3	1	2	7.898	2.661
+Polish_2.8	SVO	DAN_	3	1	2	7.972	2.559
+Polish_2.8	SOV	DAN_	3	1	2	7.883	2.64
+Polish_2.8	SOV	DAN_	3	1	2	7.948	2.412
+Polish_2.8	SVO	DAN_	3	1	2	7.907	2.43
+Polish_2.8	SOV	DAN_	3	1	2	7.882	2.669
+Polish_2.8	SOV	DAN_	3	1	2	7.882	2.666
+Polish_2.8	SOV	DAN_	3	1	2	7.883	2.64
+Portuguese_2.8	OSV	NA_D	1	2	1	6.297	3.272
+Portuguese_2.8	OSV	NA_D	1	2	1	6.287	3.192
+Portuguese_2.8	OSV	NA_D	1	2	1	6.287	3.197
+Portuguese_2.8	OSV	A_ND	2	1	1	6.373	3.01
+Portuguese_2.8	OSV	A_ND	2	1	1	6.37	3.0
+Portuguese_2.8	SOV	A_DN	1	2	1	6.363	3.446
+Portuguese_2.8	OSV	NA_D	1	2	1	6.316	3.292
+Romanian_2.8	SOV	ADN_	2	1	3	7.02	3.248
+Romanian_2.8	SOV	NA_D	1	2	1	6.957	2.905
+Romanian_2.8	SOV	NA_D	1	2	1	6.949	2.832
+Romanian_2.8	SVO	NAD_	1	3	2	7.061	3.322
+Romanian_2.8	SOV	NA_D	1	2	1	6.935	2.873
+Russian_2.8	SVO	DNA_	3	2	1	8.337	2.899
+Russian_2.8	SOV	DNA_	3	2	1	8.416	2.731
+Russian_2.8	SVO	DNA_	3	2	1	8.323	2.926
+Sanskrit_2.8	OSV	A_DN	1	2	1	7.179	2.253
+Sanskrit_2.8	SVO	A_DN	1	2	1	7.178	2.331
+Sanskrit_2.8	SVO	AD_N	1	1	2	7.089	2.478
+Sanskrit_2.8	SVO	AD_N	1	1	2	7.099	2.291
+Sanskrit_2.8	SOV	AD_N	1	1	2	7.101	2.331
+Scottish_Gaelic_2.8	SVO	AN_D	1	1	2	5.559	2.888
+Scottish_Gaelic_2.8	SVO	A_DN	1	2	1	5.552	2.935
+Scottish_Gaelic_2.8	OSV	NA_D	1	2	1	5.5	3.334
+Scottish_Gaelic_2.8	SVO	NDA_	2	3	1	5.536	3.092
+Scottish_Gaelic_2.8	OSV	NA_D	1	2	1	5.526	2.882
+Scottish_Gaelic_2.8	OSV	A_ND	2	1	1	5.489	2.925
+Scottish_Gaelic_2.8	OSV	A_ND	2	1	1	5.491	2.929
+Serbian_2.8	OSV	DNA_	3	2	1	7.247	3.04
+Serbian_2.8	SOV	NA_D	1	2	1	7.267	2.726
+Serbian_2.8	OSV	NA_D	1	2	1	7.249	2.7
+Serbian_2.8	SOV	NAD_	1	3	2	7.323	2.764
+Serbian_2.8	OSV	A_ND	2	1	1	7.302	2.936
+Serbian_2.8	OSV	A_DN	1	2	1	7.272	2.584
+Serbian_2.8	OSV	AD_N	1	1	2	7.246	2.863
+Serbian_2.8	OSV	NA_D	1	2	1	7.296	2.715
+Serbian_2.8	OSV	DNA_	3	2	1	7.254	3.062
+Slovak_2.8	SVO	AN_D	1	1	2	7.828	2.402
+Slovak_2.8	OSV	AN_D	1	1	2	7.871	2.35
+Slovak_2.8	OSV	AN_D	1	1	2	7.826	2.272
+Slovak_2.8	OSV	NA_D	1	2	1	7.875	2.187
+Slovak_2.8	SOV	DAN_	3	1	2	7.834	2.266
+Slovak_2.8	SOV	DAN_	3	1	2	7.874	2.256
+Slovenian_2.8	OSV	NA_D	1	2	1	7.753	2.544
+Slovenian_2.8	OSV	NDA_	2	3	1	7.675	2.606
+Slovenian_2.8	SOV	DNA_	3	2	1	7.679	2.581
+Slovenian_2.8	OSV	DAN_	3	1	2	7.697	2.545
+Slovenian_2.8	OSV	DNA_	3	2	1	7.698	2.645
+Slovenian_2.8	OSV	DAN_	3	1	2	7.683	2.588
+Spanish_2.8	SVO	NA_D	1	2	1	6.338	3.014
+Spanish_2.8	OSV	NA_D	1	2	1	6.393	3.319
+Spanish_2.8	SVO	NA_D	1	2	1	6.34	3.02
+Spanish_2.8	SVO	NA_D	1	2	1	6.38	3.141
+Spanish_2.8	SVO	NA_D	1	2	1	6.496	3.162
+Swedish_2.8	SVO	NAD_	1	3	2	7.098	3.214
+Swedish_2.8	SVO	NAD_	1	3	2	7.007	2.727
+Swedish_2.8	SVO	NDA_	2	3	1	7.019	2.835
+Swedish_2.8	SVO	NAD_	1	3	2	7.002	2.727
+Swedish_2.8	SVO	NDA_	2	3	1	7.068	2.789
+Swedish_2.8	SVO	AND_	1	2	3	7.001	2.73
+Swedish_2.8	SVO	AD_N	1	1	2	7.067	2.746
+Swedish_2.8	SVO	NAD_	1	3	2	7.021	2.763
+Thai_2.8	OSV	DNA_	3	2	1	6.447	3.01
+Thai_2.8	SVO	DNA_	3	2	1	6.46	3.137
+Thai_2.8	OSV	DNA_	3	2	1	6.458	2.891
+Thai_2.8	SOV	A_ND	2	1	1	6.482	3.012
+Thai_2.8	SOV	A_ND	2	1	1	6.447	2.881
+Thai_2.8	SVO	DAN_	3	1	2	6.475	3.134
+Turkish_2.8	SOV	AND_	1	2	3	8.272	2.456
+Turkish_2.8	SOV	AD_N	1	1	2	8.371	2.255
+Turkish_2.8	SOV	AND_	1	2	3	8.28	2.385
+Turkish_2.8	SOV	AND_	1	2	3	8.323	2.321
+Turkish_2.8	SOV	AND_	1	2	3	8.35	2.357
+Turkish_2.8	SOV	ADN_	2	1	3	8.297	2.451
+Turkish_2.8	SOV	ADN_	2	1	3	8.478	2.398
+Ukrainian_2.8	SOV	NDA_	2	3	1	8.63	2.947
+Ukrainian_2.8	SOV	NDA_	2	3	1	8.625	2.841
+Ukrainian_2.8	SOV	DA_N	2	1	1	8.612	3.027
+Ukrainian_2.8	SVO	NDA_	2	3	1	8.627	2.847
+Upper_Sorbian_2.8	OSV	AD_N	1	1	2	7.33	2.772
+Upper_Sorbian_2.8	SOV	NA_D	1	2	1	7.329	2.839
+Upper_Sorbian_2.8	OSV	NA_D	1	2	1	7.339	2.744
+Upper_Sorbian_2.8	SOV	DA_N	2	1	1	7.355	2.99
+Upper_Sorbian_2.8	OSV	DNA_	3	2	1	7.371	2.815
+Upper_Sorbian_2.8	SVO	A_DN	1	2	1	7.361	2.856
+Upper_Sorbian_2.8	SOV	NA_D	1	2	1	7.352	2.847
+Upper_Sorbian_2.8	SOV	NA_D	1	2	1	7.327	2.892
+Upper_Sorbian_2.8	OSV	NA_D	1	2	1	7.33	2.752
+Upper_Sorbian_2.8	OSV	A_ND	2	1	1	7.333	2.897
+Upper_Sorbian_2.8	SOV	DA_N	2	1	1	7.36	2.662
+Upper_Sorbian_2.8	SVO	A_DN	1	2	1	7.326	2.852
+Urdu_2.8	SOV	NDA_	2	3	1	5.778	3.516
+Urdu_2.8	SOV	NDA_	2	3	1	5.822	3.746
+Urdu_2.8	SOV	NDA_	2	3	1	5.886	3.245
+Uyghur_2.8	SOV	DAN_	3	1	2	8.141	2.593
+Uyghur_2.8	SOV	DAN_	3	1	2	8.178	2.637
+Uyghur_2.8	SOV	NDA_	2	3	1	8.255	2.259
+Uyghur_2.8	SVO	DAN_	3	1	2	8.243	2.305
+Uyghur_2.8	SOV	NDA_	2	3	1	8.186	2.491
+Vietnamese_2.8	SOV	AN_D	1	1	2	6.582	2.841
+Vietnamese_2.8	SOV	NAD_	1	3	2	6.574	2.694
+Vietnamese_2.8	SOV	NA_D	1	2	1	6.669	2.79
+Vietnamese_2.8	SVO	NAD_	1	3	2	6.619	2.5
+Vietnamese_2.8	SOV	NA_D	1	2	1	6.617	2.953
+Welsh_2.8	OSV	A_ND	2	1	1	6.179	2.363
+Welsh_2.8	OSV	A_ND	2	1	1	6.151	2.419
+Welsh_2.8	SOV	DNA_	3	2	1	6.19	2.448
+Welsh_2.8	OSV	A_ND	2	1	1	6.17	2.8
+Welsh_2.8	OSV	A_ND	2	1	1	6.239	2.72
+Western_Armenian_2.8	SVO	ADN_	2	1	3	7.858	2.881
+Western_Armenian_2.8	SVO	AD_N	1	1	2	7.854	2.813
+Western_Armenian_2.8	OSV	A_DN	1	2	1	7.856	2.714
+Western_Armenian_2.8	OSV	A_DN	1	2	1	7.852	3.114
+Western_Armenian_2.8	SVO	AN_D	1	1	2	7.893	2.873
+Western_Armenian_2.8	OSV	AD_N	1	1	2	7.844	2.86
+Western_Armenian_2.8	SOV	NA_D	1	2	1	7.882	3.421
+Western_Armenian_2.8	SVO	ADN_	2	1	3	7.858	3.032
+Wolof_2.8	SVO	A_DN	1	2	1	5.84	2.898
+Wolof_2.8	OSV	AND_	1	2	3	5.951	3.184
+Wolof_2.8	SVO	A_DN	1	2	1	5.819	3.078
+Wolof_2.8	SVO	A_DN	1	2	1	5.861	2.873
+Wolof_2.8	SVO	A_DN	1	2	1	5.808	2.946
+Wolof_2.8	SVO	A_DN	1	2	1	5.881	3.201
+Wolof_2.8	SVO	A_DN	1	2	1	5.833	3.036
