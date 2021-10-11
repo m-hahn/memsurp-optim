@@ -1,6 +1,6 @@
 import os
 import subprocess
-script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_DLM_EVAL.py"
+script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_DLM_RecordBasic.py"
 
 #groups = ["hillclimbing-auc"]
 groups = ["DLM_MEMORY_OPTIMIZED/locality_optimized_dlm/manual_output_funchead_fine_depl_nopos"]

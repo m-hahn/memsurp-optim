@@ -280,6 +280,7 @@ if args.group.startswith("DLM_MEMORY_OPTIMIZED"): # == "DLM_MEMORY_OPTIMIZED/loc
   print(weights)
  # quit()
 else:
+ assert False
  with open(glob.glob("/u/scr/mhahn/deps/"+args.group+"/*.py_"+args.model+".tsv")[0], "r") as inFile:
   next(inFile)
   for line in inFile:
@@ -319,10 +320,18 @@ bestObjectiveSoFar = 1e100
 import os
 lastUpdated = 0
 if True:
-     _, surprisals, dependencyLength = calculateTradeoffForWeights(weights)
-    
      with open("output/"+__file__+".tsv", "a") as outFile:
-        print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
-        print "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
 
+        order = "".join([x[0] for x in sorted([("V", int(weights["HEAD"])), ("S", int(weights["nsubj"])), ("O", int(weights["obj"]))],key= lambda x:x[1])])
+        if order.index("S") > order.index("V"):
+            order = order[::-1]
+        correl = [x for x in ["case", "cop", "mark", "nmod", "obl", "xcomp", "acl", "aux", "amod", "nummod", "nsubj"] if x in weights]
+        def d(x):
+           return int(weights[x]) < int(weights["HEAD"])
+        
+        np = "".join([x[0] for x in sorted([("_", int(weights["HEAD"])), ("A", int(weights["amod"])), ("N", int(weights["nummod"])), ("D", int(weights["det"]))],key= lambda x:x[1])])
+        if np.index("A") > np.index("_"):
+           np = np[::-1]
+
+        print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")))])
 

@@ -8,11 +8,11 @@ same = defaultdict(int)
 dist_d, dist_n, dist_a = 0, 0, 0
 languages = set()
 with open(f"output/{__file__}.tsv", "w") as outFile:
- print("\t".join(["language", "basic", "np", "Dist_D", "Dist_N", "Dist_A", "Surprisal2", "DepLen"]), file=outFile)
+ print("\t".join(["language", "ID", "basic", "np", "Dist_D", "Dist_N", "Dist_A", "Surprisal2", "DepLen"]), file=outFile)
  for f in sorted(files):
    if f.endswith(".swp"):
      continue
-   print(f)
+   id_ = f[f.rfind("_")+1:-4]
    data = [x.split("\t") for x in open(DIR+"/"+f, "r").read().strip().split("\n")]
    
    _, args, results = data[0][0].split('"')
@@ -42,7 +42,7 @@ with open(f"output/{__file__}.tsv", "w") as outFile:
    dist_d += abs(np.index("D") - np.index("_"))/(len(files)+0.0)
    dist_n += abs(np.index("N") - np.index("_"))/(len(files)+0.0)
    dist_a += abs(np.index("A") - np.index("_"))/(len(files)+0.0)
-   print("\t".join([str(x) for x in [language, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")), round(surprisals[1],3), round(depLen,3)]]), file=outFile)
+   print("\t".join([str(x) for x in [language, id_, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")), round(surprisals[1],3), round(depLen,3)]]), file=outFile)
    print(language, "\t", order, [x for x in correl if d(x) == d("obj")], "\t", [x for x in correl if d(x) != d("obj")], "\t", args[:3], "\t", np, "\t", round(surprisals[1],3), "\t", round(depLen,3))
    for x in correl:
      if d(x) == d("obj"):
