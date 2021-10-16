@@ -9,9 +9,10 @@ else:
 for _ in range(N):
    language = choice(languages)
    if "German" in language:
-      language = "German-GSD_2.6"
+#      language = "German-GSD_2.8"
+      pass
    elif "Japanese" in language:
-      language = "Japanese-GSD_2.6"
+      language = "Japanese-GSD_2.8"
    elif "Czech" in language:
       continue
    subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM.py", "--language="+language])

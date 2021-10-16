@@ -1,3 +1,5 @@
+# TODO some to remove, e.g. Swedish sign language, Turkish-German
+
 import os
 import random
 import sys

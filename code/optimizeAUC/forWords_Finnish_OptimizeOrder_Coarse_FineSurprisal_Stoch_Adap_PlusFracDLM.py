@@ -9,13 +9,13 @@ objectiveName = "LM"
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--language", dest="language", type=str)
-parser.add_argument("--group", dest="group", type=str)
 parser.add_argument("--model", dest="model", type=str)
 parser.add_argument("--alpha", dest="alpha", type=float, default=1.0)
 parser.add_argument("--gamma", dest="gamma", type=int, default=1)
 parser.add_argument("--delta", dest="delta", type=float, default=1.0)
 parser.add_argument("--cutoff", dest="cutoff", type=int, default=2)
 parser.add_argument("--idForProcess", dest="idForProcess", type=int, default=random.randint(0,10000000))
+parser.add_argument("--fraction", dest="fraction", type=float, default=random.choice([0.2, 0.8]))
 
 
 
@@ -258,36 +258,6 @@ itos_pure_deps_ = itos_pure_deps[::]
 shuffle(itos_pure_deps_)
 weights = dict(list(zip(itos_pure_deps_, [2*x for x in range(len(itos_pure_deps_))]))) # abstract slot
 
-import glob
-if args.group.startswith("DLM_MEMORY_OPTIMIZED"): # == "DLM_MEMORY_OPTIMIZED/locality_optimized_dlm/manual_output_funchead_fine_depl_nopos":
- assert "nopos" in args.group
- with open(glob.glob("/u/scr/mhahn/deps/"+args.group+"/*.py_model_"+args.model+".tsv")[0], "r") as inFile:
-  header = next(inFile).strip().split("\t")
-#  header = dict(list(zip(header, range(len(header)))))
-  for x in weights:
-     weights[x] = float('nan')
-  weights["HEAD"] = 0
-  weights["root"] = 0
-  for line in inFile:
-     print(line)
-     line = line.strip().split("\t")
-     if len(line) > 1:
-        CoarseDependency = line[header.index("CoarseDependency")]
-        assert  line[header.index("HeadPOS")] == "any", line
-        DH_Weight = float(line[header.index("DH_Weight")])
-        DistanceWeight = float(line[header.index("DistanceWeight")])
-        weights[CoarseDependency] = (1 if DH_Weight < 0 else -1) * exp(DistanceWeight)
-  print(weights)
- # quit()
-else:
- assert False
- with open(glob.glob("/u/scr/mhahn/deps/"+args.group+"/*.py_"+args.model+".tsv")[0], "r") as inFile:
-  next(inFile)
-  for line in inFile:
-     line = line.strip().split("\t")
-     if len(line) > 1:
-        weights[line[0]] = int(line[1])
-
 def calculateTradeoffForWeights(weights):
     # Order the datasets based on the given weights
     train = []
@@ -313,29 +283,60 @@ def calculateTradeoffForWeights(weights):
     #print(dev[:50])
     auc, devSurprisalTable = calculateMemorySurprisalTradeoff(train, dev, args)
     print("VALUES", auc, totalDependencyLength/totalWordCount)
-    overallObjective = auc + 2*totalDependencyLength/totalWordCount
+    overallObjective = (1-args.fraction)*auc + args.fraction*totalDependencyLength/totalWordCount
     return overallObjective, devSurprisalTable, totalDependencyLength/totalWordCount
    
 bestObjectiveSoFar = 1e100
 import os
 lastUpdated = 0
-if True:
-     with open("output/"+__file__+".tsv", "a") as outFile:
+for iteration in range(10000):
+  # Randomly select a morpheme whose position to update
+  coordinate = "root"
+  while coordinate == "root":
+     coordinate=choice(itos_pure_deps)
 
-        print("WEIGHTS AGAIN", weights)
-        print("WEIGHTS AGAIN", weights["HEAD"], weights["nsubj"], weights["obj"])
+  # This will store the minimal Objective found so far and the corresponding position
+  mostCorrectValue = weights[coordinate]
 
-        order = "".join([x[0] for x in sorted([("V", float(weights["HEAD"])), ("S", float(weights["nsubj"])), ("O", float(weights["obj"]))],key= lambda x:x[1])])
-        if order.index("S") > order.index("V"):
-            order = order[::-1]
-        correl = [x for x in ["case", "cop", "mark", "nmod", "obl", "xcomp", "acl", "aux", "amod", "nummod", "nsubj"] if x in weights]
-        def d(x):
-           return int(weights[x]) < int(weights["HEAD"])
-        
-        np = "".join([x[0] for x in sorted([("_", int(weights["HEAD"])), ("A", int(weights["amod"])), ("N", int(weights["nummod"])), ("D", int(weights["det"]))],key= lambda x:x[1])])
-        if np.index("A") > np.index("_"):
-           np = np[::-1]
+  # Iterate over possible new positions
+  for newValue in [choice([-1] + [2*x+1 for x in range(len(itos_pure_deps))])]:
+     if random() > 0.5:
+        continue
+     print("Iteration", iteration, newValue, "best Objective so far:", bestObjectiveSoFar, coordinate, args, lastUpdated, __file__)
+     # Updated weights, assuming the selected morpheme is moved to the position indicated by `newValue`.
+     weights_ = {x : y if x != coordinate else newValue for x, y in weights.items()}
 
-        print "\t".join([str(w) for w in (args.language, args.group, args.model, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")))])
-        print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")))])
+     # Calculate Objective for this updated assignment
+     resultingObjective, _, _ = calculateTradeoffForWeights(weights_)
+
+     # Update variables if Objective is smaller than minimum Objective found so far
+     if resultingObjective < bestObjectiveSoFar:
+        mostCorrectValue = newValue
+        bestObjectiveSoFar = resultingObjective
+        lastUpdated = iteration
+#  assert bestObjectiveSoFar < 1e99
+  print(iteration, bestObjectiveSoFar)
+  weights[coordinate] = mostCorrectValue
+  itos_pure_deps_ = sorted(itos_pure_deps, key=lambda x:weights[x])
+  weights = dict(list(zip(itos_pure_deps_, [2*x for x in range(len(itos_pure_deps_))])))
+ # print(weights)
+  if iteration == lastUpdated:
+    for x in itos_pure_deps_:
+      print("\t".join([str(y) for y in [x, weights[x]]]))
+  if (iteration + 1) % 500 == 0: # and iteration-lastUpdated <= 100:
+     _, surprisals, dependencyLength = calculateTradeoffForWeights(weights_)
+
+#     if os.path.exists(TARGET_DIR):
+#       pass
+#     else:
+#       os.makedirs(TARGET_DIR)
+     TARGET_DIR = "/u/scr/mhahn/deps/hillclimbing-auc-fracdlm/"
+     with open(TARGET_DIR+"/optimized_"+args.language+"_"+__file__+"_"+str(myID)+".tsv", "w") as outFile:
+        print >> outFile, (iteration, lastUpdated, bestObjectiveSoFar, str(args), surprisals, dependencyLength)
+        for key in itos_pure_deps_:
+          print >> outFile, (key+"\t"+str(weights[key]))
+     if iteration - lastUpdated > 2000:
+        break  
+
+
 

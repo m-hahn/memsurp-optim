@@ -9,6 +9,7 @@ objectiveName = "LM"
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--language", dest="language", type=str)
+parser.add_argument("--instance", dest="instance", type=str, default="")
 parser.add_argument("--group", dest="group", type=str)
 parser.add_argument("--model", dest="model", type=str)
 parser.add_argument("--alpha", dest="alpha", type=float, default=1.0)
@@ -321,7 +322,7 @@ lastUpdated = 0
 if True:
      _, surprisals, dependencyLength = calculateTradeoffForWeights(weights)
     
-     with open("output/"+__file__+".tsv", "a") as outFile:
+     with open("output/"+__file__+args.instance+".tsv", "a") as outFile:
         print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
         print "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
 

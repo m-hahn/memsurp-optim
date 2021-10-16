@@ -227,18 +227,18 @@ import os
 #   print("Enough models!")
 #   quit()
 #
-dhWeights = Variable(torch.FloatTensor([0.0] * len(itos_pure_deps)), requires_grad=True)
-distanceWeights = Variable(torch.FloatTensor([0.0] * len(itos_pure_deps)), requires_grad=True)
-for i, key in enumerate(itos_pure_deps):
-   dhLogits[key] = 0.0
-   if key == "obj": 
-       dhLogits[key] = (10.0 if random() > 0.5 else -10.0)
-
-   dhWeights.data[i] = dhLogits[key]
-
-   originalDistanceWeights[key] = 0.0 #random()  
-   distanceWeights.data[i] = originalDistanceWeights[key]
-
+#dhWeights = Variable(torch.FloatTensor([0.0] * len(itos_pure_deps)), requires_grad=True)
+#distanceWeights = Variable(torch.FloatTensor([0.0] * len(itos_pure_deps)), requires_grad=True)
+#for i, key in enumerate(itos_pure_deps):
+#   dhLogits[key] = 0.0
+#   if key == "obj": 
+#       dhLogits[key] = (10.0 if random() > 0.5 else -10.0)
+#
+#   dhWeights.data[i] = dhLogits[key]
+#
+#   originalDistanceWeights[key] = 0.0 #random()  
+#   distanceWeights.data[i] = originalDistanceWeights[key]
+#
 
 data_train = list(CorpusIterator(args.language,"train", storeMorph=True).iterator(rejectShortSentences = False))
 data_dev = list(CorpusIterator(args.language,"dev", storeMorph=True).iterator(rejectShortSentences = False))
@@ -295,7 +295,21 @@ if True:
      _, surprisals, dependencyLength = calculateTradeoffForWeights(weights)
     
      with open("output/"+__file__+".tsv", "a") as outFile:
-        print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
-        print "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength)])
+        order = "".join([x[0] for x in sorted([("V", int(weights["HEAD"])), ("S", int(weights["nsubj"])), ("O", int(weights["obj"]))],key= lambda x:x[1])])
+        if order.index("S") > order.index("V"):
+            order = order[::-1]
+        correl = [x for x in ["case", "cop", "mark", "nmod", "obl", "xcomp", "acl", "aux", "amod", "nummod", "nsubj"] if x in weights]
+        def d(x):
+           return int(weights[x]) < int(weights["HEAD"])
+        
+        np = "".join([x[0] for x in sorted([("_", int(weights["HEAD"])), ("A", int(weights["amod"])), ("N", int(weights["nummod"])), ("D", int(weights["det"]))],key= lambda x:x[1])])
+        if np.index("A") > np.index("_"):
+           np = np[::-1]
+
+
+
+
+        print >> outFile, "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength, order, np)])
+        print "\t".join([str(w) for w in (args.language, args.group, args.model, "_".join([str(q) for q in surprisals]), dependencyLength, order, np)])
 
 
