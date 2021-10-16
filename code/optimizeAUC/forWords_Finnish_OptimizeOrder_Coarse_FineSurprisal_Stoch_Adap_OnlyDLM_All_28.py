@@ -13,16 +13,16 @@ script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 for language in languages:
    print(language, "from 2.6 and 2.8:", len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")))
 for _ in range(N):
-   if "German" in language:
-#      language = "German-GSD_2.8"
-      continue
-   elif "Japanese" in language:
-      language = "Japanese-GSD_2.8"
-   elif "Czech" in language:
-      continue
    random.shuffle(languages)
    found = False
    for language in languages:
+     if "German" in language:
+  #      language = "German-GSD_2.8"
+        continue
+     elif "Japanese" in language:
+        language = "Japanese-GSD_2.8"
+     elif "Czech" in language:
+        continue
      print("Considering", language, "from 2.6 and 2.8:", len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")))
      if len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")) < 15:
          found = True
