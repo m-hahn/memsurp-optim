@@ -9,6 +9,7 @@ objectiveName = "LM"
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--language", dest="language", type=str)
+parser.add_argument("--instance", dest="instance", type=str, default="")
 parser.add_argument("--group", dest="group", type=str, default="RANDOM")
 parser.add_argument("--model", dest="model", type=str, default=str(random.randint(1000, 10000000)))
 parser.add_argument("--alpha", dest="alpha", type=float, default=1.0)
@@ -294,7 +295,7 @@ lastUpdated = 0
 if True:
      _, surprisals, dependencyLength = calculateTradeoffForWeights(weights)
     
-     with open("output/"+__file__+".tsv", "a") as outFile:
+     with open("output/"+__file__+args.instance+".tsv", "a") as outFile:
         order = "".join([x[0] for x in sorted([("V", int(weights["HEAD"])), ("S", int(weights["nsubj"])), ("O", int(weights["obj"]))],key= lambda x:x[1])])
         if order.index("S") > order.index("V"):
             order = order[::-1]
