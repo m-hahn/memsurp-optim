@@ -4,8 +4,8 @@ import subprocess
 import time
 script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_DLM_EVAL.py"
 
-#groups = ["hillclimbing-auc"]
-groups = ["DLM_MEMORY_OPTIMIZED/locality_optimized_dlm/manual_output_funchead_fine_depl_nopos"]
+groups = ["hillclimbing-auc"]
+#groups = ["DLM_MEMORY_OPTIMIZED/locality_optimized_dlm/manual_output_funchead_fine_depl_nopos"]
 import random
 
 instance = random.randint(10000, 10000000)
@@ -28,12 +28,13 @@ for group in groups:
      id_ = f[f.rfind("_")+1:-4]
      relevantLogs = glob.glob("output/forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_DLM_EVAL.py*tsv")
      found = False
+     print("Looking for", id_)
      print("LOGs", relevantLogs)
      for log in relevantLogs:
         with open(log, "r") as inFile:
             for line in inFile:
               line = line.strip().split("\t")
-              print("DONE", int(line[2]), "LOOKING FOR", id_)
+        #      print("DONE", int(line[2]), "LOOKING FOR", id_)
               
               if int(line[2]) == int(id_):
                 

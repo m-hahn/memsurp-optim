@@ -8,8 +8,8 @@ if len(sys.argv) > 1:
 else:
    N =1000
 import glob
-BASE = "hillclimbing-auc-halfdlm"
-script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM.py"
+BASE = "FUNCHEAD_hillclimbing-auc-dlm"
+script = "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusDLM_FuncHead.py"
 for language in languages:
    print(language, "from 2.6 and 2.8:", len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")))
 for _ in range(N):
@@ -29,4 +29,4 @@ for _ in range(N):
          break
    if not found:
      break
-   subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM.py", "--language="+language])
+   subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", script, "--language="+language])
