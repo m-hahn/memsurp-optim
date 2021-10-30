@@ -8,7 +8,7 @@ same = defaultdict(int)
 dist_d, dist_n, dist_a = 0, 0, 0
 languages = set()
 with open(f"output/{__file__}.tsv", "w") as outFile:
- print("\t".join(["language", "ID", "basic", "np", "Dist_D", "Dist_N", "Dist_A", "Surprisal2", "DepLen"]), file=outFile)
+ print("\t".join(["language", "ID", "basic", "np", "Dist_D", "Dist_N", "Dist_A", "Surprisal2", "DepLen", "SatisfiedCorrelations"]), file=outFile)
  for f in sorted(files):
    if f.endswith(".swp"):
      continue
@@ -32,7 +32,7 @@ with open(f"output/{__file__}.tsv", "w") as outFile:
    order = "".join([x[0] for x in sorted([("V", int(data["HEAD"])), ("S", int(data["nsubj"])), ("O", int(data["obj"]))],key= lambda x:x[1])])
    if order.index("S") > order.index("V"):
        order = order[::-1]
-   correl = [x for x in ["case", "cop", "mark", "nmod", "obl", "xcomp", "acl", "aux", "amod", "nummod", "nsubj"] if x in data]
+   correl = [x for x in ["lifted_case", "lifted_cop", "lifted_mark", "nmod", "obl", "xcomp", "acl", "aux"] if x in data] # , "amod", "nummod", "nsubj"
    def d(x):
       return int(data[x]) < int(data["HEAD"])
 
@@ -42,7 +42,8 @@ with open(f"output/{__file__}.tsv", "w") as outFile:
    dist_d += abs(np.index("D") - np.index("_"))/(len(files)+0.0)
    dist_n += abs(np.index("N") - np.index("_"))/(len(files)+0.0)
    dist_a += abs(np.index("A") - np.index("_"))/(len(files)+0.0)
-   print("\t".join([str(x) for x in [language, id_, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")), round(surprisals[1],3), round(depLen,3)]]), file=outFile)
+   satisfiedCorrelations = len([x for x in correl if (x not in ["aux"] and  d(x) == d("obj")) or (x in ["aux"] and d(x) != d("obj"))])
+   print("\t".join([str(x) for x in [language, id_, order, np, abs(np.index("D") - np.index("_")), abs(np.index("N") - np.index("_")), abs(np.index("A") - np.index("_")), round(surprisals[1],3), round(depLen,3), satisfiedCorrelations]]), file=outFile)
    print(language, "\t", order, [x for x in correl if d(x) == d("obj")], "\t", [x for x in correl if d(x) != d("obj")], "\t", args[:3], "\t", np, "\t", round(surprisals[1],3), "\t", round(depLen,3))
    for x in correl:
      if d(x) == d("obj"):
