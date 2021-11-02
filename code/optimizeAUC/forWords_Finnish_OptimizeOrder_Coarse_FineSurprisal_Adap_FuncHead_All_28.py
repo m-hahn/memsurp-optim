@@ -14,5 +14,6 @@ for _ in range(N):
    elif "Japanese" in language:
       language = "Japanese-GSD_2.8"
    elif "Czech" in language:
+#     language = "Czech-PDT_2.8"
       continue
-   subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch.py", "--language="+language])
+   subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", "forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Adap_FuncHead.py", "--language="+language])

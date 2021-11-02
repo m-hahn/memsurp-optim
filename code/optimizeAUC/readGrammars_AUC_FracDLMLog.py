@@ -1,10 +1,10 @@
 import os
-DIR = "/u/scr/mhahn/deps/hillclimbing-auc/"
-files = [x for x in sorted(os.listdir(DIR)) if "DLM" not in x]
+DIR = "/u/scr/mhahn/deps/hillclimbing-auc-fracdlm/"
+files = [x for x in sorted(os.listdir(DIR))]
 from collections import defaultdict
 same = defaultdict(int)
 
-parameters = ["alpha", "cutoff", "delta", "gamma", "idForProcess", "language", "model", "script"]
+parameters = ["alpha", "cutoff", "delta", "fraction", "gamma", "idForProcess", "language", "model", "script"]
 
 dist_d, dist_n, dist_a = 0, 0, 0
 languages = set()

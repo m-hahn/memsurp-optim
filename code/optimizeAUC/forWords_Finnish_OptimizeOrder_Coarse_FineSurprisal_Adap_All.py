@@ -10,7 +10,7 @@ for _ in range(N):
    language = choice(languages)
    if "German" in language:
 #      language = "German-GSD_2.8"
-      pass
+      continue
    elif "Japanese" in language:
       language = "Japanese-GSD_2.8"
    elif "Czech" in language:

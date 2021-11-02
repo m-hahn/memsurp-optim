@@ -1,6 +1,6 @@
 import os
-DIR = "/u/scr/mhahn/deps/hillclimbing-auc/"
-files = [x for x in sorted(os.listdir(DIR)) if "DLM" not in x]
+DIR = "/u/scr/mhahn/deps/hillclimbing-auc-twodlm/"
+files = [x for x in sorted(os.listdir(DIR))]
 from collections import defaultdict
 same = defaultdict(int)
 
