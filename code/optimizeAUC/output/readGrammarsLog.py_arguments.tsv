@@ -398,6 +398,16 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	6633399	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	7834606	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	7431618	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	9671089	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	8991534	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	3594686	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	2668283	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	5471427	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	3649616	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	5477001	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	5237023	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	4528334	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	8504772	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	6103800	Czech_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	1832511	Czech_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	9997392	Danish_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal
@@ -706,6 +716,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	5906819	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	7641019	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	9447813	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	4477462	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	640811	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	7839626	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	784939	Hebrew_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
@@ -1034,6 +1045,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	8138141	Latvian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	74125	Latvian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	9701683	Latvian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	2770351	Latvian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	5460580	Lithuanian_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal
 1.0	2	1.0	1	4402613	Lithuanian_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal
 1.0	2	1.0	1	2725856	Lithuanian_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Adap
@@ -1491,6 +1503,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	8495924	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	9598710	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	6323745	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	4581813	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	2064626	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	9330718	Slovenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	8958835	Spanish_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal
