@@ -203,6 +203,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	962400	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8703629	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	6992455	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	9941984	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	7002782	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	1128816	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	6265749	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
@@ -308,7 +309,11 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	308880	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	5232511	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8893234	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	886750	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	3583817	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	4877236	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	7621189	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	5150845	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8856102	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	4653647	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	4040825	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
@@ -411,11 +416,16 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	9855209	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	9475962	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	5995136	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	7098325	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	645994	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8173497	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8491841	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	1344171	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	3864020	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	8362957	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	5576152	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	2161301	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
+1.0	2	1.0	1	9824981	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	7404079	Japanese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	6518436	Japanese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM
 1.0	2	1.0	1	2350963	Kazakh_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_OnlyDLM

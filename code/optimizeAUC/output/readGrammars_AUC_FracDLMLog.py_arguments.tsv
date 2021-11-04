@@ -209,6 +209,13 @@ alpha	cutoff	delta	fraction	gamma	idForProcess	language	model	script
 1.0	2	1.0	0.8	1	6631965	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.2	1	7518337	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.8	1	2797158	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.2	1	4104349	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.2	1	736441	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.2	1	7288743	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.8	1	7534157	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.2	1	3164907	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.8	1	1308752	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.8	1	8097630	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.2	1	4752144	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.8	1	2030201	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.2	1	6624634	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
@@ -306,6 +313,8 @@ alpha	cutoff	delta	fraction	gamma	idForProcess	language	model	script
 1.0	2	1.0	0.2	1	4941750	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.8	1	5350668	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.8	1	1290247	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.8	1	3146138	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
+1.0	2	1.0	0.8	1	5155105	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.8	1	7076631	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.2	1	3837174	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM
 1.0	2	1.0	0.2	1	5186585	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusFracDLM

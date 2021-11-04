@@ -653,6 +653,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	6700558	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	6888474	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	3	1.0	1	781036	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
+1.0	2	1.0	1	6232440	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	7466581	German_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap
 1.0	2	1.0	1	3306521	Gothic_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal
 1.0	2	1.0	1	1650157	Gothic_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal

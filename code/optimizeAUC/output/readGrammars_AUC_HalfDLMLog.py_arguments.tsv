@@ -8,6 +8,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	6160306	Akkadian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	2174322	Akkadian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3206880	Akkadian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	6469211	Akkadian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	820057	Akkadian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9438979	Amharic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	4126310	Amharic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -25,6 +26,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	568480	Arabic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9298046	Arabic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5944880	Arabic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	8735198	Armenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	8442044	Armenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5595030	Armenian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	4513018	Bambara_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -49,6 +51,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	9502200	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5289223	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5791522	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	7246684	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6457756	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	334759	Breton_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	2560176	Bulgarian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -72,10 +75,12 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	2682479	Buryat_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6317154	Buryat_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3718135	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	6121095	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5339753	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5705321	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3809434	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6707004	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	3655699	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9850278	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	7965066	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	444711	Cantonese_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -108,6 +113,11 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	512218	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	7066574	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1678552	Croatian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	1340412	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	1805445	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	3782456	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	2696485	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	8814224	Czech-PDT_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	724967	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9964464	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	2903	Danish_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -129,6 +139,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	7047226	English_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5950646	Erzya_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6957475	Erzya_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	4523594	Erzya_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1069374	Erzya_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	446369	Estonian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9774071	Estonian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -156,6 +167,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	6066833	French_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1977107	French_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9994863	Galician_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	4933240	Galician_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3690038	Galician_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	8376523	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	586657	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -164,6 +176,10 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	7351326	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3009708	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1128291	German-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	1413492	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	5422481	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	1417050	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	9994732	German-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9089698	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1053193	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1104733	Gothic_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -222,6 +238,9 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	3171258	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3596230	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	128620	Japanese-GSD_2.6	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	4490958	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	9468840	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	4847242	Japanese-GSD_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	2085759	Kazakh_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	4602536	Kazakh_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6446169	Kazakh_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -282,6 +301,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	5348181	Naija_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3366854	Naija_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	7676281	North_Sami_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	8569981	North_Sami_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5325816	North_Sami_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	2104969	North_Sami_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	9741468	North_Sami_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -409,6 +429,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	8246205	Ukrainian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6345567	Ukrainian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3211565	Upper_Sorbian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	6925667	Upper_Sorbian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5446526	Upper_Sorbian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5865365	Upper_Sorbian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5406470	Upper_Sorbian_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
@@ -424,6 +445,7 @@ alpha	cutoff	delta	gamma	idForProcess	language	model	script
 1.0	2	1.0	1	3334740	Urdu_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	6339711	Urdu_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	3312804	Urdu_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
+1.0	2	1.0	1	834370	Urdu_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5231294	Uyghur_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	5568814	Uyghur_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
 1.0	2	1.0	1	1362559	Uyghur_2.8	None	forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_PlusHalfDLM
