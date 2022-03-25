@@ -15,6 +15,7 @@ with open(f"output/{__file__}.tsv", "w") as outFile:
    args = data[0][0][1:-1].split(", ")
    data = dict(data[1:])
    language = f[f.index("_")+1:f.index("_for")]
+   language = language.replace("2.6", "2.8").replace("2.7", "2.8")
    languages.add(language)
    order = "".join([x[0] for x in sorted([("V", int(data["HEAD"])), ("S", int(data["nsubj"])), ("O", int(data["obj"]))],key= lambda x:x[1])])
    if order.index("S") > order.index("V"):

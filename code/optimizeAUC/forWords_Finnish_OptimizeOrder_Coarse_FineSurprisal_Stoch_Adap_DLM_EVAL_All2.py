@@ -25,6 +25,17 @@ for group in groups:
      else:
        print("PROBLEM 21", False, f)
        continue
+
+     assert "_2.8" in language
+     if group.startswith("DLM_MEMORY_OPTIMIZED"):
+       # The REINFORCE-optimized grammars are optimized on the whole corpora. But for comparability to the hill-climbing grammars, need to evaluate on the restricted corpora
+       if "German" in language :
+         language = "German-GSD_2.8"
+       elif "Czech" in language:
+         language = "Czech-PDT_2.8"
+       elif "Japanese" in language:
+         language = "Japanese-GSD_2.8"
+
      id_ = f[f.rfind("_")+1:-4]
      relevantLogs = glob.glob("output/forWords_Finnish_OptimizeOrder_Coarse_FineSurprisal_Stoch_Adap_DLM_EVAL.py*tsv")
      found = False
@@ -36,7 +47,7 @@ for group in groups:
               line = line.strip().split("\t")
         #      print("DONE", int(line[2]), "LOOKING FOR", id_)
               
-              if int(line[2]) == int(id_):
+              if int(line[2]) == int(id_) and line[0] == language:
                 
                 found = True
                 break
@@ -45,7 +56,6 @@ for group in groups:
      if found:
        continue
 
-     assert "_2.8" in language
      print(f, language, id_)
      #quit()
      subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", script, "--language="+language, "--group="+group, "--model="+id_, "--instance="+str(instance)])

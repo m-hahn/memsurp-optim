@@ -7,4 +7,6 @@ import random
 random.shuffle(languages)
 for language in languages:
      subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", script, "--language="+language])
+for language in ["German-GSD_2.8", "Czech-PDT_2.8", "Japanese-GSD_2.8"]:
+     subprocess.call(["/u/nlp/anaconda/ubuntu_16/envs/py27-mhahn/bin/python2.7", script, "--language="+language])
 

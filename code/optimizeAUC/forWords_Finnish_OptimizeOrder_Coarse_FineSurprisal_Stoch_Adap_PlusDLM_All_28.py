@@ -24,6 +24,8 @@ for _ in range(N):
      elif "Czech" in language:
         language = "Czech-PDT_2.8"
    #     continue
+     else:
+       continue
      print("Considering", language, "from 2.6 and 2.8:", len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")))
      if len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language}_{script}*tsv")) + len(glob.glob(f"/u/scr/mhahn/deps/{BASE}/optimized_{language.replace('2.8', '2.6')}_{script}*tsv")) < 10:
          found = True
